@@ -39,8 +39,6 @@ cbar_max = 400
 
 clevs = np.linspace(cbar_min, cbar_max, 50)
 
-clevs_diff = np.linspace(10, 20, 50)
-
 colors = ctables.registry.get_colortable('NWSReflectivity')
 
 # create plot
@@ -66,10 +64,10 @@ c1 = ax[0,1].contourf(lon, lat, tot_accu_r.values,
                     clevs, transform=ccrs.PlateCarree(), 
                     cmap=colors, extend='max')
 c2 = ax[1,0].contourf(lon, lat, tot_accu_h.values - nonc_accu_h.values, 
-                    clevs_diff, transform=ccrs.PlateCarree(), 
+                    clevs, transform=ccrs.PlateCarree(), 
                     cmap=colors, extend='max')
 c3 = ax[1,1].contourf(lon, lat, tot_accu_r.values - nonc_accu_r.values, 
-                    clevs_diff, transform=ccrs.PlateCarree(), 
+                    clevs, transform=ccrs.PlateCarree(), 
                     cmap=colors, extend='max')
 
 # pretty up
