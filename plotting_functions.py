@@ -7,75 +7,117 @@
 # plotting output from the UFS short range
 # weather application.
 # --------------------------------
-import xarray as xr
 import matplotlib.pyplot as plt
-import scipy
+import pygrib
+from metpy.plots import ctables
+from matplotlib import rc
 import cartopy.crs as ccrs
 import cartopy.feature as cpf
-from datetime import datetime
-import imageio
-# --------------------------------
-# begin defining functinons
 
-
-def plot_conus():
+def read_grib(hr, dgrib, nat_prs, mesg_num, array_only=False):
     """
-    Input desired forecast hour and simulation grib output, 
-    outputs contour plot of desired variable across the CONUS
-    :param str hr: desired forecast hour to be plotted
-    :param str filepath: director in which grib output lies
+    Purpose: Function to read in grib output from the UFS SRW app.
+    :param int hr: forecast hour to be read
+    :param str dgrib: directory where forecast output are located
+    :param str nat_prs: reading in natlev or prslev
+    :param int mesg_num: message number for the variable to be read in
+    :param array_only bool: returns just variable array if true, returns variable array, lat lon, and valid_time if false
     """
-    # forecast hour to be plotted
-    hr = int(input("Forecast hour to be plot: "))
-    # directory where grib output is stored
-    filepath = input("Directory where grib output are stored: ")
-    # forecast initialization time
-    init_str = input("Forecast start time (UTC): ")
-    # natlev or prslev
-    level_type = input("natlev or prslev: ")
-    # grid 
-    grid = input("Grid used: ")
-    # full file path
+    # set filenames
     if hr < 10:
-        file_name = f"rrfs.t{init_str}z.{level_type}.f00{hr}.{grid}.grib2"
+        dgrib_h = f"{dgrib}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
     else:
-        file_name = f"rrfs.t{init_str}z.{level_type}.f0{hr}.{grid}.grib2"
-    # stepType
-    if level_type == "prslev":
-        typeOfLevel = input("What type of level are you using? Here are your options: \n meanSea \n hybrid \n atmosphereSingleLayer \n surface \n isothermal \n planetaryBoundaryLayer \n isobaricInhPa \n isobaricLayer \n heightAboveGround \n heightAboveGround \n depthBelowLandLayer \n depthBelowLand \n lowestLevelWetBulb0 \n nominalTop \n unknown \n lowCloudLayer \n middleCloudLayer \n highCloudLayer \n cloudBase \n cloudCeiling \n gridScaleCloudBottom \n cloudTop \n gridScaleCloudTop \n tropopause \n maxWind \n heightAboveSea \n isothermZero \n highestTroposphericFreezing \n pressureFromGroundLayer \n adiabaticCondensation \n \n Answer: ")
-        var_name = input("What variable would you like plotted? See the following link for the list of variables available (https://ufs-srweather-app.readthedocs.io/en/develop/tables/SRW_PRSLEV_table.html) \n Answer: ")
-    if level_type == "natlev":
-        typeOfLevel = input("What type of level are you using? Here are your options: \n meanSea \n hybrid \n atmosphereSingleLayer \n surface \n isothermal \n planetaryBoundaryLayer \n isobaricInhPa \n isobaricLayer \n heightAboveGround \n heightAboveGroundLayer \n atmosphere \n depthBelowLandLayer \n depthBelowLand \n lowestLevelWetBulb0 \n nominalTop \n hybridLayer \n lowCloudLayer \n middleCloudLayer \n highCloudLayer \n cloudBase \n gridScaleCloudBottom \n cloudTop \n gridScaleCloudTop \n tropopause \n maxWind \n heightAboveSea \n isothermZero \n highestTroposphericFreezing \n pressureFromGroundLayer \n \n Answer: ")
-        var_name = input("Variable being plotted? See the following link for the list of variables available (https://ufs-srweather-app.readthedocs.io/en/develop/tables/SRW_NATLEV_table.html) \n \n Answer: ")
-    # read in grib output
-    ds = xr.open_dataset(f"{filepath}/{file_name}", engine="cfgrib", filter_by_keys={'typeOfLevel': f'{typeOfLevel}'})
-    # isolate needed variables/dimensions
-    lat = ds.latitude
-    lon = ds.longitude
-    var = ds[var_name]
-    # create datetime strings
-    date_str = input("Date being plotted (YYYYMMDD): ")
-    datetime_str = date_str + str(hr)
-    date = datetime.strptime(datetime_str, "%Y%m%d%H")
+        dgrib_h = f"{dgrib}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
+
+    # open hrrr and rap output
+    print("Reading in grib output")
+    grbs = pygrib.open(dgrib_h)
+    # extract variable of interest
+    grb = grbs[mesg_num]
+    # extract latitude and longitude arrays
+    lat, lon = grb.latlons()
+    # extract datatime
+    valid_time = grb.validDate
+    
+    if array_only:
+        return grb
+    else:
+        return grb, lat, lon, valid_time
+# --------------------------------
+def plot_precip_acc(hr, clevs, lon, lat, tot_accu1, tot_accu2, 
+                    nonc_accu1, nonc_accu2, figdir, valid_date,
+                    plt_area=[-104, -94, 30, 39]):
+    """
+    Adapted from plot_precip_accu.py
+    Purpose: Plots comparison of total precipitation accumilation between two model runs and cumulus schemes
+    :param int hr: forecast hour being plot
+    :param list or array clevs: Determines the number and positions of the contour regions
+    :param array lon: array containing longitude values for plotting
+    :param array lat: array containing latitude values for plotting
+    :param array tot_accu1: first array of total precipitation accumulation
+    :param array tot_accu2: second array of total precipitation accumulation
+    :param array nonc_accu1: first array of non-convective precipitation accumulation
+    :param array nonc_accu2: second array of non-convective precipitation accumulation
+    :param str figdir: directory for figure to be saved
+    :param datetime valid_date: valid date and time that corresponds to forecast hour
+    :param list plt_area: mapping bounds in longitude and latitude [W,E,S,N] (centered over southern plains by default)
+    """
+    # set font size
+    rc("font",weight="normal",size=15)
+    # precipitation colortable
+    colors = ctables.registry.get_colortable('precipitation')
 
     # create plot
-    fig, ax = plt.subplots(subplot_kw={'projection': ccrs.PlateCarree()}, figsize=(10,10))
+    fig, ax = plt.subplots(ncols=2, nrows=2, subplot_kw={'projection': ccrs.PlateCarree()}, 
+                        figsize=(18,16), constrained_layout=True)
+
     # mapping
-    ax.coastlines()
-    ax.add_feature(cpf.BORDERS)
-    ax.add_feature(cpf.STATES)
+    for i, iax in enumerate(ax[:,0]):
+        iax.coastlines()
+        iax.add_feature(cpf.BORDERS)
+        iax.add_feature(cpf.STATES)
+        iax.set_extent(plt_area)
+    for i, iax in enumerate(ax[:,1]):
+        iax.coastlines()
+        iax.add_feature(cpf.BORDERS)
+        iax.add_feature(cpf.STATES)
+        iax.set_extent(plt_area)
+        
     # plot
-    ax.contourf(lon, lat, var[0,:,:], transform=ccrs.PlateCarree())
-    # variable name for plot title
-    var_title = input("Full name of the variable being plotted: ")
-    # variable units
-    var_units = input("latex code for the units of the variable being plotted (including $ symbols): ")
-    # forecast hour title
-    fcst_hr_title = input("Forecast hour (0HH): ")
-    plt.title(f"{var_title} [{var_units}], F0{fcst_hr_title} Valid at: {date} UTC")
-    # save plot
-    output_path = input("Path for figure to be output: ")
-    fig_path = f"{output_path}/{var_name}.F{fcst_hr_title}.png"
-    plt.savefig(fig_path)
-    plt.close(fig)
-# --------------------------------
+    print(f"Plotting F0{hr}")
+    c0 = ax[0,0].contourf(lon, lat, tot_accu1.values, 
+                        clevs, transform=ccrs.PlateCarree(), 
+                        cmap=colors, extend='max')
+    c1 = ax[0,1].contourf(lon, lat, tot_accu2.values, 
+                        clevs, transform=ccrs.PlateCarree(), 
+                        cmap=colors, extend='max')
+    c2 = ax[1,0].contourf(lon, lat, tot_accu1.values - nonc_accu1.values, 
+                        clevs, transform=ccrs.PlateCarree(), 
+                        cmap=colors, extend='max')
+    c3 = ax[1,1].contourf(lon, lat, tot_accu2.values - nonc_accu2.values, 
+                        clevs, transform=ccrs.PlateCarree(), 
+                        cmap=colors, extend='max')
+
+    # pretty up
+    ax[0,0].set_title(f"HRRR F0{hr},  Valid {valid_date} UTC")
+    ax[0,1].set_title(f"RAP F0{hr},  Valid {valid_date} UTC")
+    ax[1,0].set_title(f"HRRR F0{hr}, Valid {valid_date} UTC")
+    ax[1,1].set_title(f"RAP F0{hr}, Valid {valid_date} UTC")
+
+    # Add colorbar
+    cbar = fig.colorbar(c0, ax=ax[0,:], orientation='vertical', 
+                        extend=True, pad=0.02, fraction=0.013, 
+                        aspect=30)
+    cbar.set_label('Total Precipitation Accumilation [mm]')
+    cbar2 = fig.colorbar(c3, ax=ax[1,:], orientation='vertical', 
+                        extend=True, pad=0.02, fraction=0.013, 
+                        aspect=30)
+    cbar2.set_label('Un-Resolved Precipitation Accumilation [mm]')
+
+    # save fig
+    dout = f"{figdir}precip_accum_f{hr}.png"
+    plt.savefig(dout)
+    plt.close()
+    print(f"Figure saved to {dout}")
+
+    return
