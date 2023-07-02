@@ -1,0 +1,1784 @@
+1:Pressure reduced to MSL:Pa (instant):lambert:meanSea:level 0:fcst time 0 hrs:from 202304190000
+2:Pressure:Pa (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+3:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+4:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+5:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+6:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+7:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+8:Total Cloud Cover:% (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+9:Condensate:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+10:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+11:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+12:Rime factor:Numeric (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+13:Geopotential height:gpm (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+14:Temperature:K (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+15:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+16:U component of wind:m s**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+17:V component of wind:m s**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+18:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+19:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+20:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 1:fcst time 0 hrs:from 202304190000
+21:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 1:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+22:Pressure:Pa (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+23:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+24:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+25:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+26:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+27:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+28:Total Cloud Cover:% (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+29:Condensate:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+30:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+31:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+32:Rime factor:Numeric (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+33:Geopotential height:gpm (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+34:Temperature:K (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+35:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+36:U component of wind:m s**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+37:V component of wind:m s**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+38:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+39:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+40:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 2:fcst time 0 hrs:from 202304190000
+41:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 2:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+42:Pressure:Pa (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+43:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+44:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+45:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+46:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+47:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+48:Total Cloud Cover:% (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+49:Condensate:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+50:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+51:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+52:Rime factor:Numeric (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+53:Geopotential height:gpm (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+54:Temperature:K (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+55:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+56:U component of wind:m s**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+57:V component of wind:m s**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+58:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+59:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+60:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 3:fcst time 0 hrs:from 202304190000
+61:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 3:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+62:Pressure:Pa (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+63:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+64:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+65:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+66:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+67:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+68:Total Cloud Cover:% (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+69:Condensate:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+70:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+71:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+72:Rime factor:Numeric (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+73:Geopotential height:gpm (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+74:Temperature:K (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+75:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+76:U component of wind:m s**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+77:V component of wind:m s**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+78:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+79:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+80:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 4:fcst time 0 hrs:from 202304190000
+81:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 4:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+82:Pressure:Pa (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+83:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+84:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+85:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+86:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+87:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+88:Total Cloud Cover:% (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+89:Condensate:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+90:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+91:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+92:Rime factor:Numeric (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+93:Geopotential height:gpm (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+94:Temperature:K (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+95:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+96:U component of wind:m s**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+97:V component of wind:m s**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+98:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+99:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+100:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 5:fcst time 0 hrs:from 202304190000
+101:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 5:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+102:Pressure:Pa (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+103:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+104:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+105:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+106:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+107:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+108:Total Cloud Cover:% (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+109:Condensate:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+110:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+111:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+112:Rime factor:Numeric (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+113:Geopotential height:gpm (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+114:Temperature:K (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+115:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+116:U component of wind:m s**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+117:V component of wind:m s**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+118:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+119:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+120:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 6:fcst time 0 hrs:from 202304190000
+121:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 6:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+122:Pressure:Pa (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+123:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+124:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+125:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+126:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+127:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+128:Total Cloud Cover:% (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+129:Condensate:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+130:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+131:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+132:Rime factor:Numeric (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+133:Geopotential height:gpm (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+134:Temperature:K (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+135:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+136:U component of wind:m s**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+137:V component of wind:m s**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+138:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+139:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+140:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 7:fcst time 0 hrs:from 202304190000
+141:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 7:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+142:Pressure:Pa (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+143:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+144:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+145:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+146:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+147:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+148:Total Cloud Cover:% (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+149:Condensate:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+150:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+151:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+152:Rime factor:Numeric (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+153:Geopotential height:gpm (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+154:Temperature:K (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+155:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+156:U component of wind:m s**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+157:V component of wind:m s**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+158:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+159:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+160:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 8:fcst time 0 hrs:from 202304190000
+161:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 8:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+162:Pressure:Pa (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+163:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+164:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+165:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+166:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+167:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+168:Total Cloud Cover:% (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+169:Condensate:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+170:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+171:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+172:Rime factor:Numeric (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+173:Geopotential height:gpm (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+174:Temperature:K (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+175:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+176:U component of wind:m s**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+177:V component of wind:m s**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+178:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+179:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+180:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 9:fcst time 0 hrs:from 202304190000
+181:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 9:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+182:Pressure:Pa (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+183:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+184:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+185:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+186:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+187:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+188:Total Cloud Cover:% (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+189:Condensate:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+190:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+191:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+192:Rime factor:Numeric (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+193:Geopotential height:gpm (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+194:Temperature:K (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+195:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+196:U component of wind:m s**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+197:V component of wind:m s**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+198:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+199:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+200:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 10:fcst time 0 hrs:from 202304190000
+201:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 10:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+202:Pressure:Pa (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+203:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+204:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+205:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+206:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+207:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+208:Total Cloud Cover:% (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+209:Condensate:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+210:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+211:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+212:Rime factor:Numeric (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+213:Geopotential height:gpm (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+214:Temperature:K (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+215:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+216:U component of wind:m s**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+217:V component of wind:m s**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+218:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+219:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+220:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 11:fcst time 0 hrs:from 202304190000
+221:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 11:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+222:Pressure:Pa (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+223:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+224:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+225:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+226:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+227:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+228:Total Cloud Cover:% (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+229:Condensate:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+230:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+231:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+232:Rime factor:Numeric (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+233:Geopotential height:gpm (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+234:Temperature:K (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+235:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+236:U component of wind:m s**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+237:V component of wind:m s**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+238:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+239:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+240:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 12:fcst time 0 hrs:from 202304190000
+241:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 12:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+242:Pressure:Pa (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+243:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+244:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+245:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+246:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+247:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+248:Total Cloud Cover:% (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+249:Condensate:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+250:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+251:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+252:Rime factor:Numeric (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+253:Geopotential height:gpm (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+254:Temperature:K (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+255:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+256:U component of wind:m s**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+257:V component of wind:m s**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+258:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+259:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+260:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 13:fcst time 0 hrs:from 202304190000
+261:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 13:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+262:Pressure:Pa (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+263:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+264:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+265:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+266:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+267:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+268:Total Cloud Cover:% (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+269:Condensate:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+270:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+271:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+272:Rime factor:Numeric (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+273:Geopotential height:gpm (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+274:Temperature:K (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+275:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+276:U component of wind:m s**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+277:V component of wind:m s**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+278:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+279:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+280:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 14:fcst time 0 hrs:from 202304190000
+281:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 14:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+282:Pressure:Pa (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+283:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+284:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+285:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+286:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+287:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+288:Total Cloud Cover:% (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+289:Condensate:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+290:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+291:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+292:Rime factor:Numeric (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+293:Geopotential height:gpm (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+294:Temperature:K (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+295:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+296:U component of wind:m s**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+297:V component of wind:m s**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+298:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+299:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+300:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 15:fcst time 0 hrs:from 202304190000
+301:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 15:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+302:Pressure:Pa (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+303:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+304:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+305:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+306:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+307:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+308:Total Cloud Cover:% (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+309:Condensate:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+310:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+311:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+312:Rime factor:Numeric (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+313:Geopotential height:gpm (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+314:Temperature:K (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+315:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+316:U component of wind:m s**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+317:V component of wind:m s**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+318:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+319:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+320:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 16:fcst time 0 hrs:from 202304190000
+321:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 16:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+322:Pressure:Pa (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+323:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+324:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+325:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+326:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+327:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+328:Total Cloud Cover:% (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+329:Condensate:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+330:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+331:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+332:Rime factor:Numeric (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+333:Geopotential height:gpm (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+334:Temperature:K (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+335:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+336:U component of wind:m s**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+337:V component of wind:m s**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+338:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+339:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+340:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 17:fcst time 0 hrs:from 202304190000
+341:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 17:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+342:Pressure:Pa (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+343:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+344:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+345:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+346:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+347:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+348:Total Cloud Cover:% (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+349:Condensate:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+350:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+351:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+352:Rime factor:Numeric (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+353:Geopotential height:gpm (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+354:Temperature:K (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+355:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+356:U component of wind:m s**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+357:V component of wind:m s**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+358:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+359:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+360:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 18:fcst time 0 hrs:from 202304190000
+361:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 18:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+362:Pressure:Pa (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+363:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+364:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+365:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+366:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+367:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+368:Total Cloud Cover:% (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+369:Condensate:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+370:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+371:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+372:Rime factor:Numeric (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+373:Geopotential height:gpm (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+374:Temperature:K (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+375:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+376:U component of wind:m s**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+377:V component of wind:m s**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+378:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+379:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+380:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 19:fcst time 0 hrs:from 202304190000
+381:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 19:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+382:Pressure:Pa (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+383:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+384:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+385:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+386:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+387:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+388:Total Cloud Cover:% (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+389:Condensate:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+390:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+391:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+392:Rime factor:Numeric (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+393:Geopotential height:gpm (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+394:Temperature:K (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+395:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+396:U component of wind:m s**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+397:V component of wind:m s**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+398:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+399:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+400:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 20:fcst time 0 hrs:from 202304190000
+401:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 20:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+402:Pressure:Pa (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+403:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+404:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+405:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+406:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+407:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+408:Total Cloud Cover:% (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+409:Condensate:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+410:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+411:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+412:Rime factor:Numeric (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+413:Geopotential height:gpm (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+414:Temperature:K (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+415:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+416:U component of wind:m s**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+417:V component of wind:m s**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+418:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+419:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+420:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 21:fcst time 0 hrs:from 202304190000
+421:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 21:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+422:Pressure:Pa (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+423:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+424:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+425:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+426:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+427:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+428:Total Cloud Cover:% (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+429:Condensate:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+430:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+431:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+432:Rime factor:Numeric (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+433:Geopotential height:gpm (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+434:Temperature:K (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+435:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+436:U component of wind:m s**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+437:V component of wind:m s**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+438:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+439:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+440:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 22:fcst time 0 hrs:from 202304190000
+441:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 22:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+442:Pressure:Pa (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+443:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+444:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+445:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+446:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+447:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+448:Total Cloud Cover:% (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+449:Condensate:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+450:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+451:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+452:Rime factor:Numeric (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+453:Geopotential height:gpm (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+454:Temperature:K (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+455:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+456:U component of wind:m s**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+457:V component of wind:m s**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+458:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+459:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+460:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 23:fcst time 0 hrs:from 202304190000
+461:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 23:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+462:Pressure:Pa (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+463:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+464:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+465:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+466:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+467:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+468:Total Cloud Cover:% (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+469:Condensate:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+470:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+471:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+472:Rime factor:Numeric (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+473:Geopotential height:gpm (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+474:Temperature:K (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+475:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+476:U component of wind:m s**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+477:V component of wind:m s**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+478:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+479:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+480:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 24:fcst time 0 hrs:from 202304190000
+481:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 24:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+482:Pressure:Pa (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+483:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+484:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+485:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+486:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+487:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+488:Total Cloud Cover:% (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+489:Condensate:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+490:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+491:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+492:Rime factor:Numeric (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+493:Geopotential height:gpm (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+494:Temperature:K (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+495:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+496:U component of wind:m s**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+497:V component of wind:m s**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+498:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+499:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+500:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 25:fcst time 0 hrs:from 202304190000
+501:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 25:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+502:Pressure:Pa (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+503:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+504:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+505:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+506:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+507:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+508:Total Cloud Cover:% (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+509:Condensate:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+510:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+511:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+512:Rime factor:Numeric (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+513:Geopotential height:gpm (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+514:Temperature:K (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+515:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+516:U component of wind:m s**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+517:V component of wind:m s**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+518:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+519:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+520:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 26:fcst time 0 hrs:from 202304190000
+521:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 26:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+522:Pressure:Pa (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+523:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+524:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+525:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+526:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+527:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+528:Total Cloud Cover:% (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+529:Condensate:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+530:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+531:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+532:Rime factor:Numeric (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+533:Geopotential height:gpm (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+534:Temperature:K (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+535:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+536:U component of wind:m s**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+537:V component of wind:m s**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+538:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+539:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+540:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 27:fcst time 0 hrs:from 202304190000
+541:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 27:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+542:Pressure:Pa (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+543:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+544:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+545:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+546:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+547:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+548:Total Cloud Cover:% (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+549:Condensate:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+550:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+551:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+552:Rime factor:Numeric (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+553:Geopotential height:gpm (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+554:Temperature:K (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+555:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+556:U component of wind:m s**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+557:V component of wind:m s**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+558:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+559:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+560:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 28:fcst time 0 hrs:from 202304190000
+561:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 28:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+562:Pressure:Pa (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+563:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+564:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+565:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+566:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+567:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+568:Total Cloud Cover:% (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+569:Condensate:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+570:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+571:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+572:Rime factor:Numeric (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+573:Geopotential height:gpm (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+574:Temperature:K (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+575:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+576:U component of wind:m s**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+577:V component of wind:m s**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+578:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+579:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+580:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 29:fcst time 0 hrs:from 202304190000
+581:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 29:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+582:Pressure:Pa (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+583:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+584:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+585:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+586:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+587:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+588:Total Cloud Cover:% (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+589:Condensate:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+590:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+591:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+592:Rime factor:Numeric (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+593:Geopotential height:gpm (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+594:Temperature:K (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+595:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+596:U component of wind:m s**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+597:V component of wind:m s**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+598:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+599:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+600:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 30:fcst time 0 hrs:from 202304190000
+601:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 30:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+602:Pressure:Pa (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+603:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+604:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+605:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+606:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+607:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+608:Total Cloud Cover:% (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+609:Condensate:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+610:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+611:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+612:Rime factor:Numeric (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+613:Geopotential height:gpm (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+614:Temperature:K (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+615:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+616:U component of wind:m s**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+617:V component of wind:m s**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+618:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+619:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+620:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 31:fcst time 0 hrs:from 202304190000
+621:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 31:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+622:Pressure:Pa (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+623:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+624:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+625:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+626:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+627:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+628:Total Cloud Cover:% (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+629:Condensate:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+630:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+631:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+632:Rime factor:Numeric (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+633:Geopotential height:gpm (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+634:Temperature:K (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+635:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+636:U component of wind:m s**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+637:V component of wind:m s**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+638:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+639:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+640:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 32:fcst time 0 hrs:from 202304190000
+641:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 32:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+642:Pressure:Pa (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+643:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+644:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+645:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+646:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+647:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+648:Total Cloud Cover:% (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+649:Condensate:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+650:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+651:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+652:Rime factor:Numeric (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+653:Geopotential height:gpm (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+654:Temperature:K (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+655:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+656:U component of wind:m s**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+657:V component of wind:m s**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+658:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+659:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+660:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 33:fcst time 0 hrs:from 202304190000
+661:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 33:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+662:Pressure:Pa (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+663:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+664:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+665:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+666:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+667:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+668:Total Cloud Cover:% (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+669:Condensate:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+670:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+671:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+672:Rime factor:Numeric (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+673:Geopotential height:gpm (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+674:Temperature:K (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+675:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+676:U component of wind:m s**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+677:V component of wind:m s**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+678:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+679:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+680:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 34:fcst time 0 hrs:from 202304190000
+681:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 34:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+682:Pressure:Pa (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+683:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+684:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+685:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+686:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+687:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+688:Total Cloud Cover:% (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+689:Condensate:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+690:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+691:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+692:Rime factor:Numeric (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+693:Geopotential height:gpm (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+694:Temperature:K (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+695:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+696:U component of wind:m s**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+697:V component of wind:m s**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+698:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+699:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+700:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 35:fcst time 0 hrs:from 202304190000
+701:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 35:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+702:Pressure:Pa (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+703:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+704:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+705:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+706:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+707:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+708:Total Cloud Cover:% (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+709:Condensate:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+710:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+711:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+712:Rime factor:Numeric (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+713:Geopotential height:gpm (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+714:Temperature:K (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+715:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+716:U component of wind:m s**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+717:V component of wind:m s**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+718:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+719:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+720:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 36:fcst time 0 hrs:from 202304190000
+721:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 36:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+722:Pressure:Pa (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+723:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+724:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+725:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+726:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+727:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+728:Total Cloud Cover:% (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+729:Condensate:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+730:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+731:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+732:Rime factor:Numeric (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+733:Geopotential height:gpm (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+734:Temperature:K (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+735:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+736:U component of wind:m s**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+737:V component of wind:m s**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+738:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+739:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+740:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 37:fcst time 0 hrs:from 202304190000
+741:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 37:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+742:Pressure:Pa (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+743:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+744:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+745:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+746:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+747:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+748:Total Cloud Cover:% (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+749:Condensate:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+750:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+751:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+752:Rime factor:Numeric (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+753:Geopotential height:gpm (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+754:Temperature:K (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+755:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+756:U component of wind:m s**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+757:V component of wind:m s**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+758:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+759:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+760:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 38:fcst time 0 hrs:from 202304190000
+761:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 38:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+762:Pressure:Pa (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+763:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+764:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+765:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+766:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+767:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+768:Total Cloud Cover:% (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+769:Condensate:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+770:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+771:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+772:Rime factor:Numeric (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+773:Geopotential height:gpm (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+774:Temperature:K (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+775:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+776:U component of wind:m s**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+777:V component of wind:m s**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+778:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+779:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+780:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 39:fcst time 0 hrs:from 202304190000
+781:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 39:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+782:Pressure:Pa (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+783:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+784:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+785:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+786:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+787:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+788:Total Cloud Cover:% (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+789:Condensate:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+790:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+791:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+792:Rime factor:Numeric (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+793:Geopotential height:gpm (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+794:Temperature:K (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+795:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+796:U component of wind:m s**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+797:V component of wind:m s**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+798:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+799:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+800:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 40:fcst time 0 hrs:from 202304190000
+801:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 40:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+802:Pressure:Pa (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+803:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+804:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+805:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+806:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+807:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+808:Total Cloud Cover:% (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+809:Condensate:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+810:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+811:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+812:Rime factor:Numeric (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+813:Geopotential height:gpm (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+814:Temperature:K (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+815:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+816:U component of wind:m s**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+817:V component of wind:m s**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+818:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+819:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+820:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 41:fcst time 0 hrs:from 202304190000
+821:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 41:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+822:Pressure:Pa (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+823:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+824:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+825:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+826:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+827:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+828:Total Cloud Cover:% (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+829:Condensate:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+830:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+831:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+832:Rime factor:Numeric (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+833:Geopotential height:gpm (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+834:Temperature:K (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+835:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+836:U component of wind:m s**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+837:V component of wind:m s**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+838:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+839:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+840:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 42:fcst time 0 hrs:from 202304190000
+841:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 42:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+842:Pressure:Pa (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+843:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+844:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+845:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+846:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+847:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+848:Total Cloud Cover:% (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+849:Condensate:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+850:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+851:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+852:Rime factor:Numeric (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+853:Geopotential height:gpm (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+854:Temperature:K (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+855:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+856:U component of wind:m s**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+857:V component of wind:m s**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+858:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+859:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+860:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 43:fcst time 0 hrs:from 202304190000
+861:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 43:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+862:Pressure:Pa (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+863:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+864:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+865:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+866:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+867:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+868:Total Cloud Cover:% (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+869:Condensate:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+870:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+871:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+872:Rime factor:Numeric (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+873:Geopotential height:gpm (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+874:Temperature:K (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+875:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+876:U component of wind:m s**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+877:V component of wind:m s**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+878:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+879:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+880:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 44:fcst time 0 hrs:from 202304190000
+881:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 44:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+882:Pressure:Pa (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+883:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+884:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+885:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+886:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+887:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+888:Total Cloud Cover:% (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+889:Condensate:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+890:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+891:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+892:Rime factor:Numeric (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+893:Geopotential height:gpm (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+894:Temperature:K (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+895:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+896:U component of wind:m s**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+897:V component of wind:m s**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+898:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+899:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+900:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 45:fcst time 0 hrs:from 202304190000
+901:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 45:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+902:Pressure:Pa (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+903:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+904:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+905:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+906:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+907:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+908:Total Cloud Cover:% (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+909:Condensate:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+910:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+911:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+912:Rime factor:Numeric (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+913:Geopotential height:gpm (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+914:Temperature:K (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+915:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+916:U component of wind:m s**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+917:V component of wind:m s**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+918:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+919:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+920:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 46:fcst time 0 hrs:from 202304190000
+921:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 46:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+922:Pressure:Pa (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+923:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+924:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+925:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+926:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+927:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+928:Total Cloud Cover:% (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+929:Condensate:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+930:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+931:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+932:Rime factor:Numeric (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+933:Geopotential height:gpm (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+934:Temperature:K (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+935:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+936:U component of wind:m s**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+937:V component of wind:m s**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+938:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+939:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+940:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 47:fcst time 0 hrs:from 202304190000
+941:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 47:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+942:Pressure:Pa (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+943:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+944:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+945:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+946:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+947:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+948:Total Cloud Cover:% (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+949:Condensate:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+950:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+951:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+952:Rime factor:Numeric (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+953:Geopotential height:gpm (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+954:Temperature:K (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+955:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+956:U component of wind:m s**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+957:V component of wind:m s**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+958:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+959:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+960:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 48:fcst time 0 hrs:from 202304190000
+961:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 48:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+962:Pressure:Pa (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+963:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+964:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+965:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+966:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+967:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+968:Total Cloud Cover:% (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+969:Condensate:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+970:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+971:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+972:Rime factor:Numeric (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+973:Geopotential height:gpm (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+974:Temperature:K (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+975:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+976:U component of wind:m s**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+977:V component of wind:m s**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+978:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+979:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+980:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 49:fcst time 0 hrs:from 202304190000
+981:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 49:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+982:Pressure:Pa (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+983:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+984:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+985:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+986:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+987:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+988:Total Cloud Cover:% (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+989:Condensate:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+990:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+991:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+992:Rime factor:Numeric (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+993:Geopotential height:gpm (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+994:Temperature:K (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+995:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+996:U component of wind:m s**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+997:V component of wind:m s**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+998:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+999:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+1000:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 50:fcst time 0 hrs:from 202304190000
+1001:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 50:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1002:Pressure:Pa (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1003:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1004:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1005:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1006:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1007:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1008:Total Cloud Cover:% (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1009:Condensate:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1010:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1011:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1012:Rime factor:Numeric (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1013:Geopotential height:gpm (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1014:Temperature:K (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1015:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1016:U component of wind:m s**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1017:V component of wind:m s**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1018:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1019:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1020:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 51:fcst time 0 hrs:from 202304190000
+1021:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 51:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1022:Pressure:Pa (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1023:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1024:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1025:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1026:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1027:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1028:Total Cloud Cover:% (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1029:Condensate:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1030:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1031:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1032:Rime factor:Numeric (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1033:Geopotential height:gpm (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1034:Temperature:K (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1035:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1036:U component of wind:m s**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1037:V component of wind:m s**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1038:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1039:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1040:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 52:fcst time 0 hrs:from 202304190000
+1041:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 52:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1042:Pressure:Pa (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1043:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1044:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1045:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1046:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1047:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1048:Total Cloud Cover:% (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1049:Condensate:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1050:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1051:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1052:Rime factor:Numeric (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1053:Geopotential height:gpm (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1054:Temperature:K (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1055:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1056:U component of wind:m s**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1057:V component of wind:m s**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1058:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1059:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1060:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 53:fcst time 0 hrs:from 202304190000
+1061:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 53:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1062:Pressure:Pa (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1063:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1064:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1065:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1066:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1067:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1068:Total Cloud Cover:% (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1069:Condensate:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1070:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1071:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1072:Rime factor:Numeric (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1073:Geopotential height:gpm (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1074:Temperature:K (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1075:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1076:U component of wind:m s**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1077:V component of wind:m s**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1078:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1079:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1080:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 54:fcst time 0 hrs:from 202304190000
+1081:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 54:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1082:Pressure:Pa (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1083:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1084:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1085:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1086:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1087:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1088:Total Cloud Cover:% (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1089:Condensate:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1090:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1091:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1092:Rime factor:Numeric (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1093:Geopotential height:gpm (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1094:Temperature:K (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1095:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1096:U component of wind:m s**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1097:V component of wind:m s**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1098:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1099:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1100:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 55:fcst time 0 hrs:from 202304190000
+1101:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 55:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1102:Pressure:Pa (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1103:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1104:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1105:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1106:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1107:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1108:Total Cloud Cover:% (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1109:Condensate:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1110:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1111:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1112:Rime factor:Numeric (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1113:Geopotential height:gpm (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1114:Temperature:K (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1115:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1116:U component of wind:m s**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1117:V component of wind:m s**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1118:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1119:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1120:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 56:fcst time 0 hrs:from 202304190000
+1121:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 56:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1122:Pressure:Pa (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1123:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1124:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1125:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1126:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1127:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1128:Total Cloud Cover:% (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1129:Condensate:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1130:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1131:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1132:Rime factor:Numeric (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1133:Geopotential height:gpm (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1134:Temperature:K (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1135:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1136:U component of wind:m s**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1137:V component of wind:m s**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1138:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1139:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1140:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 57:fcst time 0 hrs:from 202304190000
+1141:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 57:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1142:Pressure:Pa (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1143:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1144:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1145:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1146:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1147:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1148:Total Cloud Cover:% (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1149:Condensate:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1150:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1151:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1152:Rime factor:Numeric (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1153:Geopotential height:gpm (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1154:Temperature:K (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1155:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1156:U component of wind:m s**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1157:V component of wind:m s**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1158:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1159:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1160:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 58:fcst time 0 hrs:from 202304190000
+1161:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 58:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1162:Pressure:Pa (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1163:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1164:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1165:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1166:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1167:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1168:Total Cloud Cover:% (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1169:Condensate:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1170:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1171:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1172:Rime factor:Numeric (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1173:Geopotential height:gpm (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1174:Temperature:K (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1175:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1176:U component of wind:m s**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1177:V component of wind:m s**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1178:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1179:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1180:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 59:fcst time 0 hrs:from 202304190000
+1181:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 59:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1182:Pressure:Pa (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1183:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1184:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1185:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1186:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1187:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1188:Total Cloud Cover:% (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1189:Condensate:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1190:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1191:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1192:Rime factor:Numeric (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1193:Geopotential height:gpm (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1194:Temperature:K (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1195:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1196:U component of wind:m s**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1197:V component of wind:m s**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1198:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1199:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1200:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 60:fcst time 0 hrs:from 202304190000
+1201:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 60:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1202:Pressure:Pa (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1203:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1204:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1205:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1206:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1207:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1208:Total Cloud Cover:% (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1209:Condensate:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1210:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1211:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1212:Rime factor:Numeric (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1213:Geopotential height:gpm (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1214:Temperature:K (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1215:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1216:U component of wind:m s**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1217:V component of wind:m s**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1218:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1219:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1220:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 61:fcst time 0 hrs:from 202304190000
+1221:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 61:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1222:Pressure:Pa (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1223:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1224:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1225:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1226:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1227:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1228:Total Cloud Cover:% (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1229:Condensate:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1230:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1231:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1232:Rime factor:Numeric (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1233:Geopotential height:gpm (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1234:Temperature:K (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1235:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1236:U component of wind:m s**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1237:V component of wind:m s**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1238:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1239:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1240:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 62:fcst time 0 hrs:from 202304190000
+1241:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 62:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1242:Pressure:Pa (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1243:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1244:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1245:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1246:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1247:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1248:Total Cloud Cover:% (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1249:Condensate:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1250:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1251:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1252:Rime factor:Numeric (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1253:Geopotential height:gpm (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1254:Temperature:K (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1255:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1256:U component of wind:m s**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1257:V component of wind:m s**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1258:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1259:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1260:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 63:fcst time 0 hrs:from 202304190000
+1261:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 63:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1262:Pressure:Pa (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1263:Cloud mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1264:Ice water mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1265:Rain mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1266:Snow mixing ratio:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1267:Graupel (snow pellets):kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1268:Total Cloud Cover:% (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1269:Condensate:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1270:Rain fraction of total cloud water:Proportion (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1271:Ice fraction of total condensate:Proportion (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1272:Rime factor:Numeric (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1273:Geopotential height:gpm (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1274:Temperature:K (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1275:Specific humidity:kg kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1276:U component of wind:m s**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1277:V component of wind:m s**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1278:Vertical velocity:Pa s**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1279:Geometric vertical velocity:m s**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1280:Turbulent kinetic energy:J kg**-1 (instant):lambert:hybrid:level 64:fcst time 0 hrs:from 202304190000
+1281:Large Scale Condensate Heating rate:K s**-1 (avg):lambert:hybrid:level 64:fcst time -2147483642--2147483636 hrs (avg):from 202304190000
+1282:Maximum/Composite radar reflectivity:dB (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1283:Visibility:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1284:Derived radar reflectivity:dB (instant):lambert:isothermal:level 263 K:fcst time 0 hrs:from 202304190000
+1285:Geopotential height:gpm (instant):lambert:planetaryBoundaryLayer:level 0:fcst time 0 hrs:from 202304190000
+1286:Wind speed (gust):m s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1287:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1288:Temperature:K (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1289:Relative humidity:% (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1290:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1291:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1292:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1293:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1294:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202304190000
+1295:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1296:Temperature:K (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1297:Relative humidity:% (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1298:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1299:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1300:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1301:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1302:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202304190000
+1303:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1304:Temperature:K (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1305:Relative humidity:% (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1306:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1307:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1308:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1309:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1310:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202304190000
+1311:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1312:Temperature:K (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1313:Relative humidity:% (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1314:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1315:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1316:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1317:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1318:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202304190000
+1319:Temperature:K (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202304190000
+1320:220:220 (max):lambert:isobaricLayer:levels 10000-100000 Pa:fcst time 0 hrs (max):from 202304190000
+1321:221:221 (max):lambert:isobaricLayer:levels 10000-100000 Pa:fcst time 0 hrs (max):from 202304190000
+1322:MSLP (Eta model reduction):Pa (instant):lambert:meanSea:level 0:fcst time 0 hrs:from 202304190000
+1323:Snow density:kg m**-3 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1324:198:198 (max):lambert:heightAboveGround:level 1000 m:fcst time 0 hrs (max):from 202304190000
+1325:198:198 (max):lambert:isothermal:level 263 K:fcst time 0 hrs (max):from 202304190000
+1326:199:199 (max):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 0 hrs (max):from 202304190000
+1327:200:200 (min):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 0 hrs (min):from 202304190000
+1328:199:199 (max):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs (max):from 202304190000
+1329:200:200 (min):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs (min):from 202304190000
+1330:Vorticity (relative):s**-1 (max):lambert:heightAboveGroundLayer:levels 2000-0 m:fcst time 0 hrs (max):from 202304190000
+1331:Vorticity (relative):s**-1 (max):lambert:heightAboveGroundLayer:levels 1000-0 m:fcst time 0 hrs (max):from 202304190000
+1332:Vorticity (relative):s**-1 (max):lambert:hybrid:level 1:fcst time 0 hrs (max):from 202304190000
+1333:Lightning:dimensionless (max):lambert:atmosphere:level 0 -:fcst time 0 hrs (max):from 202304190000
+1334:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1335:Orography:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1336:Temperature:K (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1337:Potential temperature:K (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1338:Specific humidity:kg kg**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1339:Soil temperature:K (instant):lambert:depthBelowLandLayer:levels 0.0-0.1 m:fcst time 0 hrs:from 202304190000
+1340:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:levels 0.0-0.1 m:fcst time 0 hrs:from 202304190000
+1341:Soil temperature:K (instant):lambert:depthBelowLandLayer:levels 0.1-0.4 m:fcst time 0 hrs:from 202304190000
+1342:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:levels 0.1-0.4 m:fcst time 0 hrs:from 202304190000
+1343:Soil temperature:K (instant):lambert:depthBelowLandLayer:levels 1.0-2.0 m:fcst time 0 hrs:from 202304190000
+1344:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:levels 1.0-2.0 m:fcst time 0 hrs:from 202304190000
+1345:Soil temperature:K (instant):lambert:depthBelowLand:level 3 m:fcst time 0 hrs:from 202304190000
+1346:Moisture availability:% (instant):lambert:depthBelowLandLayer:levels 0.0-1.0 m:fcst time 0 hrs:from 202304190000
+1347:Soil moisture:kg m**-3 (instant):lambert:depthBelowLandLayer:levels 0.0-2.0 m:fcst time 0 hrs:from 202304190000
+1348:Plant canopy surface water:kg m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1349:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1350:Snow cover:% (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1351:Snow depth:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1352:Potential evaporation rate:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1353:Sublimation (evaporation from snow):W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1354:Direct evaporation cease (soil moisture):Proportion (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1355:Soil porosity:Proportion (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1356:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202304190000
+1357:2 metre specific humidity:kg kg**-1 (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202304190000
+1358:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202304190000
+1359:2 metre relative humidity:% (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202304190000
+1360:Maximum temperature:K (max):lambert:heightAboveGround:level 2 m:fcst time 0 hrs (max):from 202304190000
+1361:Minimum temperature:K (min):lambert:heightAboveGround:level 2 m:fcst time 0 hrs (min):from 202304190000
+1362:Maximum relative humidity:% (max):lambert:heightAboveGround:level 2 m:fcst time 0 hrs (max):from 202304190000
+1363:Minimum Relative Humidity:% (min):lambert:heightAboveGround:level 2 m:fcst time 0 hrs (min):from 202304190000
+1364:10 metre U wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202304190000
+1365:10 metre V wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202304190000
+1366:222:222 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202304190000
+1367:223:223 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202304190000
+1368:Potential temperature:K (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202304190000
+1369:Specific humidity:kg kg**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202304190000
+1370:10 metre wind speed:m s**-1 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202304190000
+1371:Percent frozen precipitation:% (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1372:Precipitation rate:kg m**-2 s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1373:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1374:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1375:Large scale precipitation (non-convective):kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1376:Large scale precipitation (non-convective):kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1377:Land Surface Precipitation Accumulation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1378:Snow melt:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1379:Storm surface runoff:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1380:Baseflow-groundwater runoff:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1381:Geopotential height:gpm (instant):lambert:lowestLevelWetBulb0:level 0:fcst time 0 hrs:from 202304190000
+1382:Categorical snow:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1383:Categorical ice pellets:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1384:Categorical freezing rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1385:Categorical rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1386:Latent heat net flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1387:Sensible heat net flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1388:Ground heat flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1389:Snow phase change heat flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1390:Evaporation:kg m-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1391:Potential evaporation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202304190000
+1392:Surface roughness:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1393:Frictional velocity:m s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1394:Drag coefficient:Numeric (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1395:Momentum flux, u component:N m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1396:Momentum flux, v component:N m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1397:Sensible heat net flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1398:Latent heat net flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1399:Exchange coefficient:kg m**-2 s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1400:Vegetation:% (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1401:Ground heat flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1402:Vegetation Type:Integer(0-13) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1403:Soil type:~ (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1404:Pressure:Pa (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202304190000
+1405:Pressure:Pa (instant):lambert:hybridLayer:levels 1-21:fcst time 0 hrs:from 202304190000
+1406:Pressure:Pa (instant):lambert:hybridLayer:levels 1-61:fcst time 0 hrs:from 202304190000
+1407:Surface lifted index:K (instant):lambert:isobaricLayer:levels 50000-100000 Pa:fcst time 0 hrs:from 202304190000
+1408:Convective available potential energy:J kg**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1409:Convective inhibition:J kg**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1410:Precipitable water:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1411:Total column-integrated cloud water:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1412:Total column-integrated cloud ice:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1413:Total column integrated rain:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1414:Total column integrated snow:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1415:74:74 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1416:Total column-integrated condensate:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1417:Low cloud cover:% (instant):lambert:lowCloudLayer:level 0:fcst time 0 hrs:from 202304190000
+1418:Medium cloud cover:% (instant):lambert:middleCloudLayer:level 0:fcst time 0 hrs:from 202304190000
+1419:High cloud cover:% (instant):lambert:highCloudLayer:level 0:fcst time 0 hrs:from 202304190000
+1420:Total Cloud Cover:% (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202304190000
+1421:Total Cloud Cover:% (avg):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs (avg):from 202304190000
+1422:Non-convective cloud cover:% (avg):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs (avg):from 202304190000
+1423:Pressure:Pa (instant):lambert:cloudBase:level 0:fcst time 0 hrs:from 202304190000
+1424:Geopotential height:gpm (instant):lambert:cloudBase:level 0:fcst time 0 hrs:from 202304190000
+1425:Pressure:Pa (instant):lambert:gridScaleCloudBottom:level 0:fcst time 0 hrs:from 202304190000
+1426:Pressure:Pa (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202304190000
+1427:Geopotential height:gpm (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202304190000
+1428:Temperature:K (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202304190000
+1429:Pressure:Pa (instant):lambert:gridScaleCloudTop:level 0:fcst time 0 hrs:from 202304190000
+1430:Downward short-wave radiation flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1431:Downward long-wave radiation flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1432:Upward short-wave radiation flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1433:Upward long-wave radiation flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0 hrs (avg):from 202304190000
+1434:Upward short-wave radiation flux:W m**-2 (avg):lambert:nominalTop:level 0:fcst time 0 hrs (avg):from 202304190000
+1435:Upward long-wave radiation flux:W m**-2 (avg):lambert:nominalTop:level 0:fcst time 0 hrs (avg):from 202304190000
+1436:Downward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1437:Downward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1438:Upward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1439:Upward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1440:Clear Sky Downward Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1441:Storm relative helicity:m**2 s**-2 (instant):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs:from 202304190000
+1442:Storm relative helicity:m**2 s**-2 (instant):lambert:heightAboveGroundLayer:levels 1000-0 m:fcst time 0 hrs:from 202304190000
+1443:U-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 6000-0 m:fcst time 0 hrs:from 202304190000
+1444:V-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 6000-0 m:fcst time 0 hrs:from 202304190000
+1445:Tropopause pressure:Pa (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1446:Geopotential height:gpm (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1447:Temperature:K (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1448:U component of wind:m s**-1 (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1449:V component of wind:m s**-1 (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1450:Vertical speed shear:s**-1 (instant):lambert:tropopause:level 0:fcst time 0 hrs:from 202304190000
+1451:Pressure:Pa (instant):lambert:maxWind:level 0:fcst time 0 hrs:from 202304190000
+1452:Geopotential height:gpm (instant):lambert:maxWind:level 0:fcst time 0 hrs:from 202304190000
+1453:U component of wind:m s**-1 (instant):lambert:maxWind:level 0:fcst time 0 hrs:from 202304190000
+1454:V component of wind:m s**-1 (instant):lambert:maxWind:level 0:fcst time 0 hrs:from 202304190000
+1455:Temperature:K (instant):lambert:heightAboveSea:level 305 m:fcst time 0 hrs:from 202304190000
+1456:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 305 m:fcst time 0 hrs:from 202304190000
+1457:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 305 m:fcst time 0 hrs:from 202304190000
+1458:Temperature:K (instant):lambert:heightAboveSea:level 457 m:fcst time 0 hrs:from 202304190000
+1459:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 457 m:fcst time 0 hrs:from 202304190000
+1460:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 457 m:fcst time 0 hrs:from 202304190000
+1461:Temperature:K (instant):lambert:heightAboveSea:level 610 m:fcst time 0 hrs:from 202304190000
+1462:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 610 m:fcst time 0 hrs:from 202304190000
+1463:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 610 m:fcst time 0 hrs:from 202304190000
+1464:Temperature:K (instant):lambert:heightAboveSea:level 914 m:fcst time 0 hrs:from 202304190000
+1465:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 914 m:fcst time 0 hrs:from 202304190000
+1466:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 914 m:fcst time 0 hrs:from 202304190000
+1467:Temperature:K (instant):lambert:heightAboveSea:level 1524 m:fcst time 0 hrs:from 202304190000
+1468:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 1524 m:fcst time 0 hrs:from 202304190000
+1469:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 1524 m:fcst time 0 hrs:from 202304190000
+1470:Temperature:K (instant):lambert:heightAboveSea:level 1829 m:fcst time 0 hrs:from 202304190000
+1471:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 1829 m:fcst time 0 hrs:from 202304190000
+1472:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 1829 m:fcst time 0 hrs:from 202304190000
+1473:Temperature:K (instant):lambert:heightAboveSea:level 2134 m:fcst time 0 hrs:from 202304190000
+1474:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 2134 m:fcst time 0 hrs:from 202304190000
+1475:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 2134 m:fcst time 0 hrs:from 202304190000
+1476:Temperature:K (instant):lambert:heightAboveSea:level 2743 m:fcst time 0 hrs:from 202304190000
+1477:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 2743 m:fcst time 0 hrs:from 202304190000
+1478:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 2743 m:fcst time 0 hrs:from 202304190000
+1479:Temperature:K (instant):lambert:heightAboveSea:level 3658 m:fcst time 0 hrs:from 202304190000
+1480:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 3658 m:fcst time 0 hrs:from 202304190000
+1481:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 3658 m:fcst time 0 hrs:from 202304190000
+1482:Temperature:K (instant):lambert:heightAboveSea:level 4572 m:fcst time 0 hrs:from 202304190000
+1483:U component of wind:m s**-1 (instant):lambert:heightAboveSea:level 4572 m:fcst time 0 hrs:from 202304190000
+1484:V component of wind:m s**-1 (instant):lambert:heightAboveSea:level 4572 m:fcst time 0 hrs:from 202304190000
+1485:Geopotential height:gpm (instant):lambert:isothermZero:level 0:fcst time 0 hrs:from 202304190000
+1486:Relative humidity:% (instant):lambert:isothermZero:level 0:fcst time 0 hrs:from 202304190000
+1487:Geopotential height:gpm (instant):lambert:highestTroposphericFreezing:level 0:fcst time 0 hrs:from 202304190000
+1488:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1489:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1490:Potential temperature:K (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1491:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1492:Dew point temperature:K (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1493:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1494:Horizontal moisture convergence:kg kg**-1 s**-1 (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1495:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1496:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1497:Precipitable water:kg m**-2 (instant):lambert:pressureFromGroundLayer:levels 3000-0 Pa:fcst time 0 hrs:from 202304190000
+1498:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1499:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1500:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1501:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1502:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1503:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 6000-3000 Pa:fcst time 0 hrs:from 202304190000
+1504:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1505:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1506:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1507:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1508:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1509:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-6000 Pa:fcst time 0 hrs:from 202304190000
+1510:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1511:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1512:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1513:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1514:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1515:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 12000-9000 Pa:fcst time 0 hrs:from 202304190000
+1516:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1517:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1518:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1519:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1520:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1521:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 15000-12000 Pa:fcst time 0 hrs:from 202304190000
+1522:Pressure:Pa (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1523:Temperature:K (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1524:Relative humidity:% (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1525:Specific humidity:kg kg**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1526:U component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1527:V component of wind:m s**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-15000 Pa:fcst time 0 hrs:from 202304190000
+1528:Best (4-layer) lifted index:K (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202304190000
+1529:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202304190000
+1530:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202304190000
+1531:Planetary boundary layer height:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1532:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 0 hrs:from 202304190000
+1533:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 0 hrs:from 202304190000
+1534:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202304190000
+1535:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202304190000
+1536:Pressure of level from which parcel was lifted:Pa (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202304190000
+1537:Latitude (-90 to +90):deg (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1538:East Longitude (0 - 360):deg (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1539:Land-sea mask:(0 - 1) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1540:Sea ice area fraction:(0 - 1) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1541:Mass Point Model Surface:~ (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1542:Velocity Point Model Surface:~ (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1543:Albedo:% (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1544:Sea surface temperature:K (instant):lambert:surface:level 0:fcst time 0 hrs:from 202304190000
+1545:233:233 (instant):lambert:heightAboveSea:level 152.4 m:fcst time 0 hrs:from 202304190000
+1546:233:233 (instant):lambert:heightAboveSea:level 304.8 m:fcst time 0 hrs:from 202304190000
+1547:233:233 (instant):lambert:heightAboveSea:level 457.2 m:fcst time 0 hrs:from 202304190000
+1548:233:233 (instant):lambert:heightAboveSea:level 609.6 m:fcst time 0 hrs:from 202304190000
+1549:233:233 (instant):lambert:heightAboveSea:level 762.0 m:fcst time 0 hrs:from 202304190000
+1550:233:233 (instant):lambert:heightAboveSea:level 914.4 m:fcst time 0 hrs:from 202304190000
+1551:233:233 (instant):lambert:heightAboveSea:level 1066.8 m:fcst time 0 hrs:from 202304190000
+1552:233:233 (instant):lambert:heightAboveSea:level 1219.2 m:fcst time 0 hrs:from 202304190000
+1553:233:233 (instant):lambert:heightAboveSea:level 1371.6 m:fcst time 0 hrs:from 202304190000
+1554:233:233 (instant):lambert:heightAboveSea:level 1524.0 m:fcst time 0 hrs:from 202304190000
+1555:233:233 (instant):lambert:heightAboveSea:level 1676.4 m:fcst time 0 hrs:from 202304190000
+1556:233:233 (instant):lambert:heightAboveSea:level 1828.8 m:fcst time 0 hrs:from 202304190000
+1557:233:233 (instant):lambert:heightAboveSea:level 1981.2 m:fcst time 0 hrs:from 202304190000
+1558:233:233 (instant):lambert:heightAboveSea:level 2133.6 m:fcst time 0 hrs:from 202304190000
+1559:233:233 (instant):lambert:heightAboveSea:level 2286.0 m:fcst time 0 hrs:from 202304190000
+1560:233:233 (instant):lambert:heightAboveSea:level 2438.4 m:fcst time 0 hrs:from 202304190000
+1561:233:233 (instant):lambert:heightAboveSea:level 2590.8 m:fcst time 0 hrs:from 202304190000
+1562:233:233 (instant):lambert:heightAboveSea:level 2743.2 m:fcst time 0 hrs:from 202304190000
+1563:233:233 (instant):lambert:heightAboveSea:level 2895.6 m:fcst time 0 hrs:from 202304190000
+1564:233:233 (instant):lambert:heightAboveSea:level 3048.0 m:fcst time 0 hrs:from 202304190000
+1565:233:233 (instant):lambert:heightAboveSea:level 3200.4 m:fcst time 0 hrs:from 202304190000
+1566:233:233 (instant):lambert:heightAboveSea:level 3352.8 m:fcst time 0 hrs:from 202304190000
+1567:233:233 (instant):lambert:heightAboveSea:level 3505.2 m:fcst time 0 hrs:from 202304190000
+1568:233:233 (instant):lambert:heightAboveSea:level 3657.6 m:fcst time 0 hrs:from 202304190000
+1569:233:233 (instant):lambert:heightAboveSea:level 3810.0 m:fcst time 0 hrs:from 202304190000
+1570:233:233 (instant):lambert:heightAboveSea:level 3962.4 m:fcst time 0 hrs:from 202304190000
+1571:233:233 (instant):lambert:heightAboveSea:level 4114.8 m:fcst time 0 hrs:from 202304190000
+1572:233:233 (instant):lambert:heightAboveSea:level 4267.2 m:fcst time 0 hrs:from 202304190000
+1573:233:233 (instant):lambert:heightAboveSea:level 4419.6 m:fcst time 0 hrs:from 202304190000
+1574:233:233 (instant):lambert:heightAboveSea:level 4572.0 m:fcst time 0 hrs:from 202304190000
+1575:233:233 (instant):lambert:heightAboveSea:level 4724.4 m:fcst time 0 hrs:from 202304190000
+1576:233:233 (instant):lambert:heightAboveSea:level 4876.8 m:fcst time 0 hrs:from 202304190000
+1577:233:233 (instant):lambert:heightAboveSea:level 5029.2 m:fcst time 0 hrs:from 202304190000
+1578:233:233 (instant):lambert:heightAboveSea:level 5181.6 m:fcst time 0 hrs:from 202304190000
+1579:233:233 (instant):lambert:heightAboveSea:level 5334.0 m:fcst time 0 hrs:from 202304190000
+1580:233:233 (instant):lambert:heightAboveSea:level 5486.4 m:fcst time 0 hrs:from 202304190000
+1581:233:233 (instant):lambert:heightAboveSea:level 5638.8 m:fcst time 0 hrs:from 202304190000
+1582:233:233 (instant):lambert:heightAboveSea:level 5791.2 m:fcst time 0 hrs:from 202304190000
+1583:233:233 (instant):lambert:heightAboveSea:level 5943.6 m:fcst time 0 hrs:from 202304190000
+1584:233:233 (instant):lambert:heightAboveSea:level 6096.0 m:fcst time 0 hrs:from 202304190000
+1585:233:233 (instant):lambert:heightAboveSea:level 6248.4 m:fcst time 0 hrs:from 202304190000
+1586:233:233 (instant):lambert:heightAboveSea:level 6400.8 m:fcst time 0 hrs:from 202304190000
+1587:233:233 (instant):lambert:heightAboveSea:level 6553.2 m:fcst time 0 hrs:from 202304190000
+1588:233:233 (instant):lambert:heightAboveSea:level 6705.6 m:fcst time 0 hrs:from 202304190000
+1589:233:233 (instant):lambert:heightAboveSea:level 6858.0 m:fcst time 0 hrs:from 202304190000
+1590:233:233 (instant):lambert:heightAboveSea:level 7010.4 m:fcst time 0 hrs:from 202304190000
+1591:233:233 (instant):lambert:heightAboveSea:level 7162.8 m:fcst time 0 hrs:from 202304190000
+1592:233:233 (instant):lambert:heightAboveSea:level 7315.2 m:fcst time 0 hrs:from 202304190000
+1593:233:233 (instant):lambert:heightAboveSea:level 7467.6 m:fcst time 0 hrs:from 202304190000
+1594:233:233 (instant):lambert:heightAboveSea:level 7620.0 m:fcst time 0 hrs:from 202304190000
+1595:233:233 (instant):lambert:heightAboveSea:level 7772.4 m:fcst time 0 hrs:from 202304190000
+1596:233:233 (instant):lambert:heightAboveSea:level 7924.8 m:fcst time 0 hrs:from 202304190000
+1597:233:233 (instant):lambert:heightAboveSea:level 8077.2 m:fcst time 0 hrs:from 202304190000
+1598:233:233 (instant):lambert:heightAboveSea:level 8229.6 m:fcst time 0 hrs:from 202304190000
+1599:233:233 (instant):lambert:heightAboveSea:level 8382.0 m:fcst time 0 hrs:from 202304190000
+1600:233:233 (instant):lambert:heightAboveSea:level 8534.4 m:fcst time 0 hrs:from 202304190000
+1601:233:233 (instant):lambert:heightAboveSea:level 8686.8 m:fcst time 0 hrs:from 202304190000
+1602:233:233 (instant):lambert:heightAboveSea:level 8839.2 m:fcst time 0 hrs:from 202304190000
+1603:233:233 (instant):lambert:heightAboveSea:level 8991.6 m:fcst time 0 hrs:from 202304190000
+1604:233:233 (instant):lambert:heightAboveSea:level 9144.0 m:fcst time 0 hrs:from 202304190000
+1605:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 152.4 m:fcst time 0 hrs:from 202304190000
+1606:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 304.8 m:fcst time 0 hrs:from 202304190000
+1607:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 457.2 m:fcst time 0 hrs:from 202304190000
+1608:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 609.6 m:fcst time 0 hrs:from 202304190000
+1609:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 762.0 m:fcst time 0 hrs:from 202304190000
+1610:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 914.4 m:fcst time 0 hrs:from 202304190000
+1611:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1066.8 m:fcst time 0 hrs:from 202304190000
+1612:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1219.2 m:fcst time 0 hrs:from 202304190000
+1613:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1371.6 m:fcst time 0 hrs:from 202304190000
+1614:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1524.0 m:fcst time 0 hrs:from 202304190000
+1615:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1676.4 m:fcst time 0 hrs:from 202304190000
+1616:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1828.8 m:fcst time 0 hrs:from 202304190000
+1617:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 1981.2 m:fcst time 0 hrs:from 202304190000
+1618:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2133.6 m:fcst time 0 hrs:from 202304190000
+1619:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2286.0 m:fcst time 0 hrs:from 202304190000
+1620:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2438.4 m:fcst time 0 hrs:from 202304190000
+1621:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2590.8 m:fcst time 0 hrs:from 202304190000
+1622:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2743.2 m:fcst time 0 hrs:from 202304190000
+1623:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 2895.6 m:fcst time 0 hrs:from 202304190000
+1624:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3048.0 m:fcst time 0 hrs:from 202304190000
+1625:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3200.4 m:fcst time 0 hrs:from 202304190000
+1626:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3352.8 m:fcst time 0 hrs:from 202304190000
+1627:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3505.2 m:fcst time 0 hrs:from 202304190000
+1628:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3657.6 m:fcst time 0 hrs:from 202304190000
+1629:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3810.0 m:fcst time 0 hrs:from 202304190000
+1630:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 3962.4 m:fcst time 0 hrs:from 202304190000
+1631:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4114.8 m:fcst time 0 hrs:from 202304190000
+1632:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4267.2 m:fcst time 0 hrs:from 202304190000
+1633:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4419.6 m:fcst time 0 hrs:from 202304190000
+1634:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4572.0 m:fcst time 0 hrs:from 202304190000
+1635:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4724.4 m:fcst time 0 hrs:from 202304190000
+1636:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 4876.8 m:fcst time 0 hrs:from 202304190000
+1637:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5029.2 m:fcst time 0 hrs:from 202304190000
+1638:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5181.6 m:fcst time 0 hrs:from 202304190000
+1639:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5334.0 m:fcst time 0 hrs:from 202304190000
+1640:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5486.4 m:fcst time 0 hrs:from 202304190000
+1641:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5638.8 m:fcst time 0 hrs:from 202304190000
+1642:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5791.2 m:fcst time 0 hrs:from 202304190000
+1643:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 5943.6 m:fcst time 0 hrs:from 202304190000
+1644:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6096.0 m:fcst time 0 hrs:from 202304190000
+1645:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6248.4 m:fcst time 0 hrs:from 202304190000
+1646:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6400.8 m:fcst time 0 hrs:from 202304190000
+1647:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6553.2 m:fcst time 0 hrs:from 202304190000
+1648:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6705.6 m:fcst time 0 hrs:from 202304190000
+1649:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 6858.0 m:fcst time 0 hrs:from 202304190000
+1650:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7010.4 m:fcst time 0 hrs:from 202304190000
+1651:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7162.8 m:fcst time 0 hrs:from 202304190000
+1652:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7315.2 m:fcst time 0 hrs:from 202304190000
+1653:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7467.6 m:fcst time 0 hrs:from 202304190000
+1654:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7620.0 m:fcst time 0 hrs:from 202304190000
+1655:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7772.4 m:fcst time 0 hrs:from 202304190000
+1656:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 7924.8 m:fcst time 0 hrs:from 202304190000
+1657:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8077.2 m:fcst time 0 hrs:from 202304190000
+1658:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8229.6 m:fcst time 0 hrs:from 202304190000
+1659:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8382.0 m:fcst time 0 hrs:from 202304190000
+1660:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8534.4 m:fcst time 0 hrs:from 202304190000
+1661:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8686.8 m:fcst time 0 hrs:from 202304190000
+1662:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8839.2 m:fcst time 0 hrs:from 202304190000
+1663:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 8991.6 m:fcst time 0 hrs:from 202304190000
+1664:Supercooled Large Droplet (SLD) Potential:~ (instant):lambert:heightAboveSea:level 9144.0 m:fcst time 0 hrs:from 202304190000
+1665:Icing severity:Numeric (instant):lambert:heightAboveSea:level 152.4 m:fcst time 0 hrs:from 202304190000
+1666:Icing severity:Numeric (instant):lambert:heightAboveSea:level 304.8 m:fcst time 0 hrs:from 202304190000
+1667:Icing severity:Numeric (instant):lambert:heightAboveSea:level 457.2 m:fcst time 0 hrs:from 202304190000
+1668:Icing severity:Numeric (instant):lambert:heightAboveSea:level 609.6 m:fcst time 0 hrs:from 202304190000
+1669:Icing severity:Numeric (instant):lambert:heightAboveSea:level 762.0 m:fcst time 0 hrs:from 202304190000
+1670:Icing severity:Numeric (instant):lambert:heightAboveSea:level 914.4 m:fcst time 0 hrs:from 202304190000
+1671:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1066.8 m:fcst time 0 hrs:from 202304190000
+1672:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1219.2 m:fcst time 0 hrs:from 202304190000
+1673:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1371.6 m:fcst time 0 hrs:from 202304190000
+1674:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1524.0 m:fcst time 0 hrs:from 202304190000
+1675:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1676.4 m:fcst time 0 hrs:from 202304190000
+1676:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1828.8 m:fcst time 0 hrs:from 202304190000
+1677:Icing severity:Numeric (instant):lambert:heightAboveSea:level 1981.2 m:fcst time 0 hrs:from 202304190000
+1678:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2133.6 m:fcst time 0 hrs:from 202304190000
+1679:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2286.0 m:fcst time 0 hrs:from 202304190000
+1680:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2438.4 m:fcst time 0 hrs:from 202304190000
+1681:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2590.8 m:fcst time 0 hrs:from 202304190000
+1682:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2743.2 m:fcst time 0 hrs:from 202304190000
+1683:Icing severity:Numeric (instant):lambert:heightAboveSea:level 2895.6 m:fcst time 0 hrs:from 202304190000
+1684:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3048.0 m:fcst time 0 hrs:from 202304190000
+1685:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3200.4 m:fcst time 0 hrs:from 202304190000
+1686:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3352.8 m:fcst time 0 hrs:from 202304190000
+1687:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3505.2 m:fcst time 0 hrs:from 202304190000
+1688:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3657.6 m:fcst time 0 hrs:from 202304190000
+1689:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3810.0 m:fcst time 0 hrs:from 202304190000
+1690:Icing severity:Numeric (instant):lambert:heightAboveSea:level 3962.4 m:fcst time 0 hrs:from 202304190000
+1691:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4114.8 m:fcst time 0 hrs:from 202304190000
+1692:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4267.2 m:fcst time 0 hrs:from 202304190000
+1693:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4419.6 m:fcst time 0 hrs:from 202304190000
+1694:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4572.0 m:fcst time 0 hrs:from 202304190000
+1695:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4724.4 m:fcst time 0 hrs:from 202304190000
+1696:Icing severity:Numeric (instant):lambert:heightAboveSea:level 4876.8 m:fcst time 0 hrs:from 202304190000
+1697:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5029.2 m:fcst time 0 hrs:from 202304190000
+1698:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5181.6 m:fcst time 0 hrs:from 202304190000
+1699:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5334.0 m:fcst time 0 hrs:from 202304190000
+1700:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5486.4 m:fcst time 0 hrs:from 202304190000
+1701:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5638.8 m:fcst time 0 hrs:from 202304190000
+1702:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5791.2 m:fcst time 0 hrs:from 202304190000
+1703:Icing severity:Numeric (instant):lambert:heightAboveSea:level 5943.6 m:fcst time 0 hrs:from 202304190000
+1704:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6096.0 m:fcst time 0 hrs:from 202304190000
+1705:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6248.4 m:fcst time 0 hrs:from 202304190000
+1706:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6400.8 m:fcst time 0 hrs:from 202304190000
+1707:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6553.2 m:fcst time 0 hrs:from 202304190000
+1708:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6705.6 m:fcst time 0 hrs:from 202304190000
+1709:Icing severity:Numeric (instant):lambert:heightAboveSea:level 6858.0 m:fcst time 0 hrs:from 202304190000
+1710:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7010.4 m:fcst time 0 hrs:from 202304190000
+1711:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7162.8 m:fcst time 0 hrs:from 202304190000
+1712:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7315.2 m:fcst time 0 hrs:from 202304190000
+1713:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7467.6 m:fcst time 0 hrs:from 202304190000
+1714:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7620.0 m:fcst time 0 hrs:from 202304190000
+1715:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7772.4 m:fcst time 0 hrs:from 202304190000
+1716:Icing severity:Numeric (instant):lambert:heightAboveSea:level 7924.8 m:fcst time 0 hrs:from 202304190000
+1717:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8077.2 m:fcst time 0 hrs:from 202304190000
+1718:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8229.6 m:fcst time 0 hrs:from 202304190000
+1719:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8382.0 m:fcst time 0 hrs:from 202304190000
+1720:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8534.4 m:fcst time 0 hrs:from 202304190000
+1721:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8686.8 m:fcst time 0 hrs:from 202304190000
+1722:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8839.2 m:fcst time 0 hrs:from 202304190000
+1723:Icing severity:Numeric (instant):lambert:heightAboveSea:level 8991.6 m:fcst time 0 hrs:from 202304190000
+1724:Icing severity:Numeric (instant):lambert:heightAboveSea:level 9144.0 m:fcst time 0 hrs:from 202304190000
+1725:37:37 (instant):lambert:heightAboveSea:level 152.4 m:fcst time 0 hrs:from 202304190000
+1726:37:37 (instant):lambert:heightAboveSea:level 304.8 m:fcst time 0 hrs:from 202304190000
+1727:37:37 (instant):lambert:heightAboveSea:level 457.2 m:fcst time 0 hrs:from 202304190000
+1728:37:37 (instant):lambert:heightAboveSea:level 609.6 m:fcst time 0 hrs:from 202304190000
+1729:37:37 (instant):lambert:heightAboveSea:level 762.0 m:fcst time 0 hrs:from 202304190000
+1730:37:37 (instant):lambert:heightAboveSea:level 914.4 m:fcst time 0 hrs:from 202304190000
+1731:37:37 (instant):lambert:heightAboveSea:level 1066.8 m:fcst time 0 hrs:from 202304190000
+1732:37:37 (instant):lambert:heightAboveSea:level 1219.2 m:fcst time 0 hrs:from 202304190000
+1733:37:37 (instant):lambert:heightAboveSea:level 1371.6 m:fcst time 0 hrs:from 202304190000
+1734:37:37 (instant):lambert:heightAboveSea:level 1524.0 m:fcst time 0 hrs:from 202304190000
+1735:37:37 (instant):lambert:heightAboveSea:level 1676.4 m:fcst time 0 hrs:from 202304190000
+1736:37:37 (instant):lambert:heightAboveSea:level 1828.8 m:fcst time 0 hrs:from 202304190000
+1737:37:37 (instant):lambert:heightAboveSea:level 1981.2 m:fcst time 0 hrs:from 202304190000
+1738:37:37 (instant):lambert:heightAboveSea:level 2133.6 m:fcst time 0 hrs:from 202304190000
+1739:37:37 (instant):lambert:heightAboveSea:level 2286.0 m:fcst time 0 hrs:from 202304190000
+1740:37:37 (instant):lambert:heightAboveSea:level 2438.4 m:fcst time 0 hrs:from 202304190000
+1741:37:37 (instant):lambert:heightAboveSea:level 2590.8 m:fcst time 0 hrs:from 202304190000
+1742:37:37 (instant):lambert:heightAboveSea:level 2743.2 m:fcst time 0 hrs:from 202304190000
+1743:37:37 (instant):lambert:heightAboveSea:level 2895.6 m:fcst time 0 hrs:from 202304190000
+1744:37:37 (instant):lambert:heightAboveSea:level 3048.0 m:fcst time 0 hrs:from 202304190000
+1745:37:37 (instant):lambert:heightAboveSea:level 3200.4 m:fcst time 0 hrs:from 202304190000
+1746:37:37 (instant):lambert:heightAboveSea:level 3352.8 m:fcst time 0 hrs:from 202304190000
+1747:37:37 (instant):lambert:heightAboveSea:level 3505.2 m:fcst time 0 hrs:from 202304190000
+1748:37:37 (instant):lambert:heightAboveSea:level 3657.6 m:fcst time 0 hrs:from 202304190000
+1749:37:37 (instant):lambert:heightAboveSea:level 3810.0 m:fcst time 0 hrs:from 202304190000
+1750:37:37 (instant):lambert:heightAboveSea:level 3962.4 m:fcst time 0 hrs:from 202304190000
+1751:37:37 (instant):lambert:heightAboveSea:level 4114.8 m:fcst time 0 hrs:from 202304190000
+1752:37:37 (instant):lambert:heightAboveSea:level 4267.2 m:fcst time 0 hrs:from 202304190000
+1753:37:37 (instant):lambert:heightAboveSea:level 4419.6 m:fcst time 0 hrs:from 202304190000
+1754:37:37 (instant):lambert:heightAboveSea:level 4572.0 m:fcst time 0 hrs:from 202304190000
+1755:37:37 (instant):lambert:heightAboveSea:level 4724.4 m:fcst time 0 hrs:from 202304190000
+1756:37:37 (instant):lambert:heightAboveSea:level 4876.8 m:fcst time 0 hrs:from 202304190000
+1757:37:37 (instant):lambert:heightAboveSea:level 5029.2 m:fcst time 0 hrs:from 202304190000
+1758:37:37 (instant):lambert:heightAboveSea:level 5181.6 m:fcst time 0 hrs:from 202304190000
+1759:37:37 (instant):lambert:heightAboveSea:level 5334.0 m:fcst time 0 hrs:from 202304190000
+1760:37:37 (instant):lambert:heightAboveSea:level 5486.4 m:fcst time 0 hrs:from 202304190000
+1761:37:37 (instant):lambert:heightAboveSea:level 5638.8 m:fcst time 0 hrs:from 202304190000
+1762:37:37 (instant):lambert:heightAboveSea:level 5791.2 m:fcst time 0 hrs:from 202304190000
+1763:37:37 (instant):lambert:heightAboveSea:level 5943.6 m:fcst time 0 hrs:from 202304190000
+1764:37:37 (instant):lambert:heightAboveSea:level 6096.0 m:fcst time 0 hrs:from 202304190000
+1765:37:37 (instant):lambert:heightAboveSea:level 6248.4 m:fcst time 0 hrs:from 202304190000
+1766:37:37 (instant):lambert:heightAboveSea:level 6400.8 m:fcst time 0 hrs:from 202304190000
+1767:37:37 (instant):lambert:heightAboveSea:level 6553.2 m:fcst time 0 hrs:from 202304190000
+1768:37:37 (instant):lambert:heightAboveSea:level 6705.6 m:fcst time 0 hrs:from 202304190000
+1769:37:37 (instant):lambert:heightAboveSea:level 6858.0 m:fcst time 0 hrs:from 202304190000
+1770:37:37 (instant):lambert:heightAboveSea:level 7010.4 m:fcst time 0 hrs:from 202304190000
+1771:37:37 (instant):lambert:heightAboveSea:level 7162.8 m:fcst time 0 hrs:from 202304190000
+1772:37:37 (instant):lambert:heightAboveSea:level 7315.2 m:fcst time 0 hrs:from 202304190000
+1773:37:37 (instant):lambert:heightAboveSea:level 7467.6 m:fcst time 0 hrs:from 202304190000
+1774:37:37 (instant):lambert:heightAboveSea:level 7620.0 m:fcst time 0 hrs:from 202304190000
+1775:37:37 (instant):lambert:heightAboveSea:level 7772.4 m:fcst time 0 hrs:from 202304190000
+1776:37:37 (instant):lambert:heightAboveSea:level 7924.8 m:fcst time 0 hrs:from 202304190000
+1777:37:37 (instant):lambert:heightAboveSea:level 8077.2 m:fcst time 0 hrs:from 202304190000
+1778:37:37 (instant):lambert:heightAboveSea:level 8229.6 m:fcst time 0 hrs:from 202304190000
+1779:37:37 (instant):lambert:heightAboveSea:level 8382.0 m:fcst time 0 hrs:from 202304190000
+1780:37:37 (instant):lambert:heightAboveSea:level 8534.4 m:fcst time 0 hrs:from 202304190000
+1781:37:37 (instant):lambert:heightAboveSea:level 8686.8 m:fcst time 0 hrs:from 202304190000
+1782:37:37 (instant):lambert:heightAboveSea:level 8839.2 m:fcst time 0 hrs:from 202304190000
+1783:37:37 (instant):lambert:heightAboveSea:level 8991.6 m:fcst time 0 hrs:from 202304190000
+1784:37:37 (instant):lambert:heightAboveSea:level 9144.0 m:fcst time 0 hrs:from 202304190000
