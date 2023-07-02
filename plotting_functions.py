@@ -25,13 +25,13 @@ def read_grib(hr, dgrib, nat_prs, mesg_num, array_only=False):
     """
     # set filenames
     if hr < 10:
-        dgrib_h = f"{dgrib}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
+        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
     else:
-        dgrib_h = f"{dgrib}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
+        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
 
     # open hrrr and rap output
-    print("Reading in grib output")
-    grbs = pygrib.open(dgrib_h)
+    print(f"Reading in {dgrib}")
+    grbs = pygrib.open(dgrib)
     # extract variable of interest
     grb = grbs[mesg_num]
     # extract latitude and longitude arrays
@@ -39,6 +39,7 @@ def read_grib(hr, dgrib, nat_prs, mesg_num, array_only=False):
     # extract datatime
     valid_time = grb.validDate
     
+    print(f"Finished reading in {grb.name}")
     if array_only:
         return grb
     else:

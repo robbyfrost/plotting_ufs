@@ -2,7 +2,7 @@
 # Name: plot_refc_loop.py
 # Author: Robert M. Frost
 # NOAA Global Systems Laboratory
-# Created: 27 June 2023
+# Created: 02 July 2023
 # Purpose: Loop to plot composite
 # reflectivity over Oklahoma and 
 # Texas using HRRR and RAP output
@@ -13,15 +13,22 @@ import cartopy.crs as ccrs
 import cartopy.feature as cpf
 import numpy as np
 from metpy.plots import ctables
-import pygrib
+from plotting_functions import read_grib
 # --------------------------------
-# define directory location of grib2 output
-dhrrr = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_hrrrphys/2019052000/postprd/"
-drap = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_rapphys/2019052000/postprd/"
-# define prslev or natlev
+# important parameters
+
+# directory where hrrr grib data are located
+dgrib_h = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_hrrrphys/2019052000/postprd/"
+# directory where rap grib data are located
+dgrib_r = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_rapphys/2019052000/postprd/"
+# natlev or prslev
 nat_prs = "prslev"
+# message number for composite reflectivity
+mn_refc = 40
+# directory for figure to be output
+figdir = "/scratch2/BMC/fv3lam/Robby.Frost/figures/20190520/refc/"
 # --------------------------------
-# Plot multiple hours at once
+# read in data
 
 # create lists to store data
 refch_all = []
@@ -31,26 +38,13 @@ hri = 33 # first hour to be plot
 hrf = 37 # enter last hour + 1
 # loop over forecast hours of interest
 for hr in range(hri,hrf):
-    # set full filepaths
-    if hr < 10:
-        dgrib_h = f"{dhrrr}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
-        dgrib_r = f"{drap}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
-    else:
-        dgrib_h = f"{dhrrr}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
-        dgrib_r = f"{drap}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
-
-    # read in hrrr and rap output
-    print(f"Reading in F0{hr} HRRR and RAP output.")
-    grbs_h = pygrib.open(dgrib_h)
-    grbs_r = pygrib.open(dgrib_r)
-    # extract composite reflectivity arrays
-    refc_h = grbs_h[40]
-    refc_r = grbs_r[40]
+    refc_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
+    refc_r = read_grib(hr, dgrib_r, nat_prs, mn_refc, array_only=True)
     # append hourly refc array to list
     refch_all.append(refc_h)
     refcr_all.append(refc_r)
-# set arrays containing latitude and longitude values
-lat, lon = refc_h.latlons()
+# --------------------------------
+# Side by side reflectivity plot
 
 # Define your custom colorbar bounds
 cbar_min = 0
@@ -109,8 +103,9 @@ cbar.set_label('Simulated Composite Reflectivty [dBZ]')
 # tight_layout
 plt.tight_layout
 
-dout = f"/scratch2/BMC/fv3lam/Robby.Frost/figures/20190520/refc/refc_4x2_f{hri}-f{hrf-1}.png"
-print(f"Saving figure here: {dout}")
-plt.savefig(dout)
+# save figure
+figdir_full = f"{figdir}refc_4x2_f{hri}-f{hrf-1}.png"
+print(f"Saving figure to {figdir_full}")
+plt.savefig(f"{figdir_full}")
 plt.close()
 print(f"Finished plotting!")
