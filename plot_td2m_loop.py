@@ -9,17 +9,21 @@
 # --------------------------------
 from plotting_functions import read_grib
 import matplotlib.pyplot as plt
+from matplotlib import rc
 import cartopy.crs as ccrs
 import cartopy.feature as cpf
 import seaborn
 import numpy as np
+import geopandas as gpd
 # --------------------------------
 # settings
 
+# date being plot
+date = "20230419"
 # directory where hrrr grib data are located
-dgrib_h = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_hrrrphys/2019052000/postprd/"
+dgrib_h = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}00_3km_hrrrphys/{date}00/postprd/"
 # directory where rap grib data are located
-dgrib_r = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2019052000_3km_rapphys/2019052000/postprd/"
+dgrib_r = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}00_3km_rapphys/{date}00/postprd/"
 # natlev or prslev
 nat_prs = "natlev"
 # message number for dew point
@@ -29,9 +33,46 @@ mn_u10 = 1364
 # message number for v at 10m
 mn_v10 = 1365
 # directory for figure to be output
-figdir = "/scratch2/BMC/fv3lam/Robby.Frost/figures/20190520/td2m/"
+figdir = f"/scratch2/BMC/fv3lam/Robby.Frost/figures/{date}/td2m/"
+# --------------------------------
+# plotting setup
+rc('font',weight='normal',size=12.5)
+# rc('text',usetex='True')
+rc('figure',facecolor='white')
+# --------------------------------
+# NWS dew point colorbar
+
+import matplotlib.colors as colors
+a = np.array([0,10,20,30,40,45,50,55,60,65,70,75,80])
+# Normalize the bin between 0 and 1 (uneven bins are important here)
+norm = [(float(i)-min(a))/(max(a)-min(a)) for i in a]
+# Color tuple for every bin
+C = np.array([[59,34,4],
+            [84,48,5],
+            [140,82,10],
+            [191,129,45],
+            [204,168,84],
+            [223,194,125],
+            [230,217,181],
+            [211,235,231],
+            [169,219,211],
+            [114,184,173],
+            [49,140,133],
+            [1,102,95],
+            [0,60,48],
+            [0,41,33]])
+# Create a tuple for every color indicating the normalized position on the colormap and the assigned color.
+COLORS = []
+for i, n in enumerate(norm):
+    COLORS.append((n, np.array(C[i])/255.))
+# Create the colormap
+cmap = colors.LinearSegmentedColormap.from_list("dewpoint", COLORS)
+# --------------------------------
+# loop over time
 
 for hr in range(0,37):
+    print(f"Hour {hr}")
+
     # read in dew point
     td2m_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_td2m)
     td2m_r = read_grib(hr, dgrib_r, nat_prs, mn_td2m, array_only=True)
@@ -45,72 +86,47 @@ for hr in range(0,37):
     u10_r = read_grib(hr, dgrib_r, nat_prs, mn_u10, array_only=True).values
     v10_r = read_grib(hr, dgrib_r, nat_prs, mn_v10, array_only=True).values
     # --------------------------------
-    # NWS dew point colorbar
-
-    import matplotlib.colors as colors
-    a = np.array([0,10,20,30,40,45,50,55,60,65,70,75,80])
-    # Normalize the bin between 0 and 1 (uneven bins are important here)
-    norm = [(float(i)-min(a))/(max(a)-min(a)) for i in a]
-    # Color tuple for every bin
-    C = np.array([[59,34,4],
-                [84,48,5],
-                [140,82,10],
-                [191,129,45],
-                [204,168,84],
-                [223,194,125],
-                [230,217,181],
-                [211,235,231],
-                [169,219,211],
-                [114,184,173],
-                [49,140,133],
-                [1,102,95],
-                [0,60,48],
-                [0,41,33]])
-    # Create a tuple for every color indicating the normalized position on the colormap and the assigned color.
-    COLORS = []
-    for i, n in enumerate(norm):
-        COLORS.append((n, np.array(C[i])/255.))
-    # Create the colormap
-    cmap = colors.LinearSegmentedColormap.from_list("dewpoint", COLORS)
-    # --------------------------------
     # Plot dew point comparison
+    print(f"Creating 1 x 2 Td2m Plot")
 
     # Define your custom colorbar bounds
     cbar_min = 0
-    cbar_max = 80
-    # contour levels
+    cbar_max = 80.1
+    # levels for sbcape to be plot
     clevs = np.arange(cbar_min, cbar_max, 2)
-    # set NWS dew point colormap
-    colors = cmap
 
     # create plot
-    fig, ax = plt.subplots(ncols=2, subplot_kw={'projection': ccrs.PlateCarree()}, figsize=(18,10))
+    fig, ax = plt.subplots(ncols=2, subplot_kw={'projection': ccrs.PlateCarree()}, 
+                        figsize=(16,5.8), constrained_layout=True)
+
+    # plot HRRR
+    c0 = ax[0].contourf(lon, lat, td2m_h, clevs, 
+                        transform=ccrs.PlateCarree(), 
+                        cmap=cmap, extend="both")
+    # plot RAP
+    c1 = ax[1].contourf(lon, lat, td2m_r, clevs, 
+                        transform=ccrs.PlateCarree(), 
+                        cmap=cmap, extend="both")
 
     # mapping
-    plt_area = [-104, -94, 30, 39] # W, E, S, N
+    plt_area = [-101, -94, 33.5, 37.5] # W, E, S, N
     for i, iax in enumerate(ax):
         iax.coastlines()
         iax.add_feature(cpf.BORDERS)
         iax.add_feature(cpf.STATES)
         iax.set_extent(plt_area)
+        # Load the json file with county coordinates
+        geoData = gpd.read_file('https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/US-counties.geojson')
+        geoData.plot(ax=iax, color="none", lw=0.3, aspect=1)
 
-    # plot
-    c0 = ax[0].contourf(lon, lat, td2m_h, clevs, 
-                        transform=ccrs.PlateCarree(), 
-                        cmap=colors,
-                        extend="both")
-    c1 = ax[1].contourf(lon, lat, td2m_r, clevs,
-                        transform=ccrs.PlateCarree(), 
-                        cmap=colors,
-                        extend="both")
-
-    # pretty up
+    # set title
     ax[0].set_title(f"HRRR F0{hr},  Valid {valid_date} UTC")
     ax[1].set_title(f"RAP F0{hr},  Valid {valid_date} UTC")
 
     # Add colorbar
-    cbar = fig.colorbar(c1, ax=ax, orientation='horizontal', extend=True, pad=0.05, aspect=50)
+    cbar = fig.colorbar(c1, ax=ax, orientation='horizontal', extend=True, pad=0.03, aspect=50)
     cbar.set_label('2m Dew Point Temperature [$^{\circ}$F]')
+    cbar.set_ticks(np.arange(cbar_min, cbar_max, 10))
 
     # Wind barbs
     spacing=25 #barbspacing (smaller if zoomed in)
@@ -120,43 +136,55 @@ for hr in range(0,37):
     ax[1].barbs(lon[::spacing,::spacing], lat[::spacing,::spacing],
                 u10_r[::spacing,::spacing], v10_r[::spacing,::spacing], 
                 length=6)
-
-    plt.savefig(f"{figdir}td2m_sidebyside_f{hr}.png")
+    
+    # save and close figure
+    figdir_full = f"{figdir}td2m_sidebyside_f{hr}.png"
+    print(f"Saving figure to {figdir_full}")
+    plt.savefig(figdir_full)
     plt.close() 
+    print("Finished plotting 1 x 2 Td2m!")
     # --------------------------------
     # Plot dew point comparison
+    print("Creating Td2m Difference Plot!")
 
     # Define your custom colorbar bounds
     cbar_min = -30
-    cbar_max = 30
+    cbar_max = 30.1
     # contour levels
-    clevs = np.arange(cbar_min, cbar_max, 2)
+    clevs = np.linspace(cbar_min, cbar_max, 50)
     # color palette
     colors = seaborn.color_palette("seismic", as_cmap=True)
 
     # create plot
-    fig, ax = plt.subplots(subplot_kw={'projection': ccrs.PlateCarree()}, figsize=(10,10))
+    fig, ax = plt.subplots(subplot_kw={'projection': ccrs.PlateCarree()}, 
+                        figsize=(10,6.5), constrained_layout=True)
+
+    # plot HRRR - RAP
+    c0 = ax.contourf(lon, lat, td2m_h - td2m_r,
+                    clevs, transform=ccrs.PlateCarree(),
+                    cmap=colors, extend="both")
 
     # mapping
-    plt_area = [-104, -94, 30, 39] # W, E, S, N
+    plt_area = [-101, -94, 33.5, 37.5] # W, E, S, N
     ax.coastlines()
     ax.add_feature(cpf.BORDERS)
     ax.add_feature(cpf.STATES)
     ax.set_extent(plt_area)
+    # Load the json file with county coordinates
+    geoData = gpd.read_file('https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/US-counties.geojson')
+    geoData.plot(ax=ax, color="none", lw=0.3, aspect=1)
 
-    # plot
-    c0 = ax.contourf(lon, lat, td2m_h - td2m_r, clevs, 
-                        transform=ccrs.PlateCarree(), 
-                        cmap=colors,
-                        extend="both")
-
-    # pretty up
-    ax.set_title(f"F0{hr},  Valid {valid_date} UTC")
+    # set title
+    ax.set_title(f"HRRR - RAP F0{hr},  Valid {valid_date} UTC")
 
     # Add colorbar
-    cbar = fig.colorbar(c0, ax=ax, orientation='horizontal', extend=True, pad=0.05, aspect=50)
+    cbar = fig.colorbar(c0, ax=ax, orientation='horizontal', extend=True, pad=0.03, aspect=50)
     cbar.set_label('HRRR - RAP 2m Dew Point Temperature [$^{\circ}$F]')
+    cbar.set_ticks(np.arange(cbar_min, cbar_max, 5))
 
-    # save figure
-    plt.savefig(f"{figdir}td2m_diff_f{hr}.png")
+    # save and close figure
+    figdir_full = f"{figdir}td2m_diff_f{hr}.png"
+    print(f"Saving figure to {figdir_full}")
+    plt.savefig(figdir_full)
     plt.close()
+    print(f"Finished with hour {hr}! \n")
