@@ -43,4 +43,4 @@ def read_grib(hr, dgrib, nat_prs, mesg_num, array_only=False):
     if array_only:
         return grb
     else:
-        return grb, lat, lon, valid_time
+        return grbs, grb, lat, lon, valid_time
