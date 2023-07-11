@@ -1,53 +1,9 @@
-# --------------------------------
-# Name: plotting_functions.py
-# Author: Robert M. Frost
-# NOAA Global Systems Laboratory
-# Created: 16 June 2023
-# Purpose: Function to read in
-# grib model output and extract
-# desired variable
-# --------------------------------
-import matplotlib.pyplot as plt
-import pygrib
-from metpy.plots import ctables
-from matplotlib import rc
-import cartopy.crs as ccrs
-import cartopy.feature as cpf
+import xarray as xr
+import numpy as np
+from plotting_functions import read_grib
 
-def read_grib(hr, dgrib, nat_prs, mesg_num, array_only=False):
-    """
-    Purpose: Function to read in grib output from the UFS SRW app.
-    :param int hr: forecast hour to be read
-    :param str dgrib: directory where forecast output are located
-    :param str nat_prs: reading in natlev or prslev
-    :param int mesg_num: message number for the variable to be read in
-    :param array_only bool: returns just variable array if true, returns variable array, lat lon, and valid_time if false
-    """
-    # set filenames
-    if hr < 10:
-        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
-    else:
-        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
-
-    # open hrrr and rap output
-    print(f"Reading in {dgrib}")
-    grbs = pygrib.open(dgrib)
-    # extract variable of interest
-    grb = grbs[mesg_num]
-    # extract latitude and longitude arrays
-    lat, lon = grb.latlons()
-    # extract datatime
-    valid_time = grb.validDate
-    
-    print(f"Finished reading in {grb.name}")
-    if array_only:
-        return grb
-    else:
-        return grbs, grb, lat, lon, valid_time
-# --------------------------------
 def skew_to_nc(hr, dgrib, dout):
     """
-    Adapted from skew_to_new.py
     Inputs grb output for specified hour and outputs dataset 
     with 3d temperature, dew point, pressure, and u and v 
     wind components in base units for plotting skew-t's
@@ -138,3 +94,13 @@ def skew_to_nc(hr, dgrib, dout):
     ds.to_netcdf(fsave)
     print(f"Finished with hour {hr} \n!")
     return
+
+
+# directory where hrrr grib data are located
+dgrib = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041900_3km_hrrrphys/2023041900/postprd/"
+# directory for dataset to be output
+dout = "/scratch2/BMC/fv3lam/Robby.Frost/skewt_data/20230419/hrrr/"
+
+# loop over forecast hours
+for hr in range(18,37):
+    skew_to_nc(hr, dgrib, dout)
