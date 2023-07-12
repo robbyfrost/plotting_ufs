@@ -7,7 +7,7 @@
 # and wind barb comparisons at 
 # different times during forecast runs
 # --------------------------------
-from plotting_functions import read_grib
+from UFSutils import read_grib
 import matplotlib.pyplot as plt
 from matplotlib import rc
 import cartopy.crs as ccrs
@@ -74,8 +74,8 @@ for hr in range(0,37):
     print(f"Hour {hr}")
 
     # read in dew point
-    td2m_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_td2m)
-    td2m_r = read_grib(hr, dgrib_r, nat_prs, mn_td2m, array_only=True)
+    hrrr, td2m_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_td2m)
+    td2m_r = read_grib(hr, dgrib_r, nat_prs, mn_td2m, ret_type=1)
     # convert to fahrenheit (superior unit of temperature)
     td2m_h = (td2m_h.values - 273.15) * (9/5) + 32
     td2m_r = (td2m_r.values - 273.15) * (9/5) + 32

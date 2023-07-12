@@ -14,7 +14,7 @@ import cartopy.crs as ccrs
 import cartopy.feature as cpf
 import numpy as np
 from metpy.plots import ctables
-from plotting_functions import read_grib
+from UFSutils import read_grib
 import geopandas as gpd
 # --------------------------------
 # important parameters
@@ -53,8 +53,8 @@ if four_hr:
     hrf = 5 # enter last hour + 1
     # loop over forecast hours of interest
     for hr in range(hri,hrf):
-        refc_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
-        refc_r = read_grib(hr, dgrib_r, nat_prs, mn_refc, array_only=True)
+        hrrr, refc_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
+        refc_r = read_grib(hr, dgrib_r, nat_prs, mn_refc, ret_type=1)
         # append hourly refc array to list
         refch_all.append(refc_h)
         refcr_all.append(refc_r)

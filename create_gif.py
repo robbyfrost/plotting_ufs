@@ -7,7 +7,6 @@
 # output from plotting scripts
 # --------------------------------
 from PIL import Image
-import glob
 
 image_path = []
 

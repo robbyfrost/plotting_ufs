@@ -13,7 +13,7 @@ import cartopy.crs as ccrs
 import cartopy.feature as cpf
 import numpy as np
 from metpy.plots import ctables
-from plotting_functions import read_grib
+from UFSutils import read_grib
 import geopandas as gpd
 import seaborn
 # --------------------------------
@@ -41,8 +41,8 @@ rc('figure',facecolor='white')
 for hr in range(hri,hrf):
     print(f"Hour {hr}")
     # read in data
-    sbcape_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
-    sbcape_r = read_grib(hr, dgrib_r, nat_prs, mn_refc, array_only=True)
+    hrrr, sbcape_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
+    sbcape_r = read_grib(hr, dgrib_r, nat_prs, mn_refc, ret_type=1)
     # --------------------------------
     # Side by side sbcape plot
     print(f"Creating 1 x 2 SBCAPE Plot")

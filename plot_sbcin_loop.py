@@ -12,7 +12,7 @@ import cartopy.crs as ccrs
 import cartopy.feature as cpf
 import numpy as np
 from metpy.plots import ctables
-from plotting_functions import read_grib
+from UFSutils import read_grib
 import geopandas as gpd
 import seaborn
 # --------------------------------
@@ -34,8 +34,8 @@ figdir = "/scratch2/BMC/fv3lam/Robby.Frost/figures/20230419/sbcin/"
 # loop over time
 for hr in range(37):
     print(f"Hour {hr}")
-    sbcin_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_sbcin)
-    sbcin_r = read_grib(hr, dgrib_r, nat_prs, mn_sbcin, array_only=True)
+    hrrr, sbcin_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_sbcin)
+    sbcin_r = read_grib(hr, dgrib_r, nat_prs, mn_sbcin, ret_type=1)
     # --------------------------------
     # plotting setup
     rc('font',weight='normal',size=12.5)
