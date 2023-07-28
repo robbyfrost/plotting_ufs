@@ -11,9 +11,10 @@ import numpy as np
 import xarray as xr
 import pygrib
 
-def read_grib(hr, dgrib, nat_prs, mesg_num, ret_type=0):
+def read_grib(init, hr, dgrib, nat_prs, mesg_num, ret_type=0):
     """
     Purpose: Function to read in grib output from the UFS SRW app.
+    :param int init: hour at which the forecast was initialized (UTC)
     :param int hr: forecast hour to be read
     :param str dgrib: directory where forecast output are located
     :param str nat_prs: reading in natlev or prslev
@@ -23,9 +24,9 @@ def read_grib(hr, dgrib, nat_prs, mesg_num, ret_type=0):
     """
     # set filenames
     if hr < 10:
-        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
+        dgrib = f"{dgrib}rrfs.t{init}z.{nat_prs}.f00{hr}.rrfs_conuscompact_3km.grib2"
     else:
-        dgrib = f"{dgrib}rrfs.t00z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
+        dgrib = f"{dgrib}rrfs.t{init}z.{nat_prs}.f0{hr}.rrfs_conuscompact_3km.grib2"
 
     # open hrrr and rap output
     print(f"Reading in {dgrib}")
@@ -68,7 +69,7 @@ def skew_to_nc(hr, dgrib, dout):
     mn_p = np.arange(2,782.1,20)
 
     # read in output files
-    grbs, T, lat, lon, valid_date = read_grib(hr, dgrib, "natlev", int(mn_t[0]))
+    grbs, T, lat, lon, valid_date = read_grib(12, hr, dgrib, "natlev", int(mn_t[0]), ret_type=0)
 
     # create arrays for temperature
     T = np.empty((mn_t.size, lat[:,0].size, lon[0,:].size))

@@ -20,9 +20,11 @@ import geopandas as gpd
 # important parameters
 
 # directory where hrrr grib data are located
-dgrib_h = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041900_3km_hrrrphys/2023041900/postprd/"
+dgrib_h = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041912_3km_hrrrphys/2023041912/postprd/"
 # directory where rap grib data are located
-dgrib_r = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041900_3km_rapphys/2023041900/postprd/"
+dgrib_r = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041912_3km_rapphys/2023041912/postprd/"
+# hour at which the forecast was initialized (UTC)
+init = 12
 # natlev or prslev
 nat_prs = "prslev"
 # message number for composite reflectivity
@@ -30,7 +32,7 @@ mn_refc = 40
 # message number for updraft helicity
 mn_heli = 936
 # directory for figure to be output
-figdir = "/scratch2/BMC/fv3lam/Robby.Frost/figures/20230419/refc/"
+figdir = "/scratch2/BMC/fv3lam/Robby.Frost/figures/2023041912/refc/"
 # flag to plot 4 hour refc
 four_hr = False
 # flag to plot single hour refc
@@ -133,11 +135,11 @@ if four_hr:
 
 if single_hr:
     # loop over forecast hours of interest
-    for hr in range(37):
+    for hr in range(25):
         print(f"Creating Reflectivity Plot for Hour {hr}")
         # read in reflectivity
-        grbs_h, refc_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_refc)
-        grbs_r, refc_r, lat, lon, valid_date = read_grib(hr, dgrib_r, nat_prs, mn_refc)
+        grbs_h, refc_h, lat, lon, valid_date = read_grib(init, hr, dgrib_h, nat_prs, mn_refc)
+        grbs_r, refc_r, lat, lon, valid_date = read_grib(init, hr, dgrib_r, nat_prs, mn_refc)
         # read in updraft helicity
         heli_h = grbs_h[mn_heli]
         heli_r = grbs_r[mn_heli]
@@ -151,7 +153,8 @@ if single_hr:
         colors = ctables.registry.get_colortable('NWSReflectivity')
 
         # create plot
-        fig, ax = plt.subplots(ncols=2, subplot_kw={'projection': ccrs.PlateCarree()}, figsize=(16,10.2), constrained_layout=True)
+        fig, ax = plt.subplots(ncols=2, subplot_kw={'projection': ccrs.PlateCarree()}, 
+                               figsize=(16,6.7), constrained_layout=True)
 
         # plot HRRR
         c0 = ax[0].contourf(lon, lat, refc_h.values, clevs, 
@@ -165,13 +168,13 @@ if single_hr:
         c1 = ax[1].contourf(lon, lat, refc_r.values, clevs,
                             transform=ccrs.PlateCarree(), 
                             cmap=colors)
-        ax[1].contourf(lon, lat, heli_r.values, [25, 500],
-                      transform=ccrs.PlateCarree(), colors="black", alpha=0.5)
-        ax[1].contour(lon, lat, heli_r.values, [25, 500],
-                      transform=ccrs.PlateCarree(), colors="black")
+        # ax[1].contourf(lon, lat, heli_r.values, [25, 500],
+        #               transform=ccrs.PlateCarree(), colors="black", alpha=0.5)
+        # ax[1].contour(lon, lat, heli_r.values, [25, 500],
+        #               transform=ccrs.PlateCarree(), colors="black")
 
         # mapping
-        plt_area = [-101, -94, 30, 37.5] # W, E, S, N
+        plt_area = [-101, -94, 33, 37.5] # W, E, S, N
         for i, iax in enumerate(ax):
             iax.coastlines()
             iax.add_feature(cpf.BORDERS)
@@ -182,16 +185,16 @@ if single_hr:
             geoData.plot(ax=iax, color="none", lw=0.3, aspect=1)
 
         # add axes titles
-        plt.suptitle("Composite Reflectivity [dBZ], UH > 25 [m$^{2}$ s$^{-2}$]")
-        ax[0].set_title(f"HRRR F0{hr},  Valid {valid_date} UTC")
-        ax[1].set_title(f"RAP F0{hr},  Valid {valid_date} UTC")
+        plt.suptitle("Composite Reflectivity [dBZ]")
+        ax[0].set_title(f"No-GF F0{hr},  Valid {valid_date} UTC")
+        ax[1].set_title(f"GF F0{hr},  Valid {valid_date} UTC")
 
         # Add colorbar
         cbar = fig.colorbar(c0, ax=ax, orientation='horizontal', 
                             extend=True, pad=0.03, aspect=50)
 
         # save figure
-        figdir_full = f"{figdir}refc_sidebyside_f{hr}.png"
+        figdir_full = f"{figdir}refc_sidebyside_f{hr}_OK.png"
         print(f"Saving figure to {figdir_full}")
         plt.savefig(figdir_full)
         plt.close()

@@ -9,10 +9,10 @@
 from UFSutils import skew_to_nc
 # --------------------------------
 # directory where hrrr grib data are located
-dgrib = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041900_3km_hrrrphys/2023041900/postprd/"
+dgrib = "/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/2023041912_3km_rapphys/2023041912/postprd/"
 # directory for dataset to be output
-dout = "/scratch2/BMC/fv3lam/Robby.Frost/skewt_data/20230419/hrrr/"
+dout = "/scratch2/BMC/fv3lam/Robby.Frost/skewt_data/2023041912/rap/"
 
 # loop over forecast hours
-for hr in range(20,37):
+for hr in range(25):
     skew_to_nc(hr, dgrib, dout)

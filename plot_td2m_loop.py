@@ -19,11 +19,13 @@ import geopandas as gpd
 # settings
 
 # date being plot
-date = "20230419"
+date = "2023041912" #YYYMMDDHH
+# hour forecast was initialized (UTC)
+init = 12
 # directory where hrrr grib data are located
-dgrib_h = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}00_3km_hrrrphys/{date}00/postprd/"
+dgrib_h = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}_3km_hrrrphys/{date}/postprd/"
 # directory where rap grib data are located
-dgrib_r = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}00_3km_rapphys/{date}00/postprd/"
+dgrib_r = f"/scratch2/BMC/fv3lam/Robby.Frost/expt_dirs/{date}_3km_rapphys/{date}/postprd/"
 # natlev or prslev
 nat_prs = "natlev"
 # message number for dew point
@@ -74,17 +76,23 @@ for hr in range(0,37):
     print(f"Hour {hr}")
 
     # read in dew point
-    hrrr, td2m_h, lat, lon, valid_date = read_grib(hr, dgrib_h, nat_prs, mn_td2m)
-    td2m_r = read_grib(hr, dgrib_r, nat_prs, mn_td2m, ret_type=1)
+    hrrr, td2m_h, lat, lon, valid_date = read_grib(init, hr, dgrib_h, nat_prs, mn_td2m, ret_type=0)
+    rap, td2m_r, lat, lon, valid_date = read_grib(init, hr, dgrib_r, nat_prs, mn_td2m, ret_type=0)
     # convert to fahrenheit (superior unit of temperature)
     td2m_h = (td2m_h.values - 273.15) * (9/5) + 32
     td2m_r = (td2m_r.values - 273.15) * (9/5) + 32
 
     # read in 10m wind
-    u10_h = read_grib(hr, dgrib_h, nat_prs, mn_u10, array_only=True).values
-    v10_h = read_grib(hr, dgrib_h, nat_prs, mn_v10, array_only=True).values
-    u10_r = read_grib(hr, dgrib_r, nat_prs, mn_u10, array_only=True).values
-    v10_r = read_grib(hr, dgrib_r, nat_prs, mn_v10, array_only=True).values
+    u10_h = hrrr[mn_u10].values
+    v10_h = hrrr[mn_v10].values
+    u10_r = rap[mn_u10].values
+    v10_r = rap[mn_v10].values
+
+    # convert 10m wind to knots
+    u10_h = u10_h * 1.944
+    v10_h = v10_h * 1.944
+    u10_r = u10_r * 1.944
+    v10_r = v10_r * 1.944
     # --------------------------------
     # Plot dew point comparison
     print(f"Creating 1 x 2 Td2m Plot")
@@ -97,7 +105,7 @@ for hr in range(0,37):
 
     # create plot
     fig, ax = plt.subplots(ncols=2, subplot_kw={'projection': ccrs.PlateCarree()}, 
-                        figsize=(16,5.8), constrained_layout=True)
+                        figsize=(16,10), constrained_layout=True)
 
     # plot HRRR
     c0 = ax[0].contourf(lon, lat, td2m_h, clevs, 
@@ -109,7 +117,7 @@ for hr in range(0,37):
                         cmap=cmap, extend="both")
 
     # mapping
-    plt_area = [-101, -94, 33.5, 37.5] # W, E, S, N
+    plt_area = [-101, -94, 30, 37.5] # W, E, S, N
     for i, iax in enumerate(ax):
         iax.coastlines()
         iax.add_feature(cpf.BORDERS)
@@ -120,8 +128,8 @@ for hr in range(0,37):
         geoData.plot(ax=iax, color="none", lw=0.3, aspect=1)
 
     # set title
-    ax[0].set_title(f"HRRR F0{hr},  Valid {valid_date} UTC")
-    ax[1].set_title(f"RAP F0{hr},  Valid {valid_date} UTC")
+    ax[0].set_title(f"No-GF F0{hr},  Valid {valid_date} UTC")
+    ax[1].set_title(f"GF F0{hr},  Valid {valid_date} UTC")
 
     # Add colorbar
     cbar = fig.colorbar(c1, ax=ax, orientation='horizontal', extend=True, pad=0.03, aspect=50)

@@ -10,14 +10,14 @@ from PIL import Image
 
 image_path = []
 
-for hr in range(37):
+for hr in range(7,19):
     # File path of the images to combine
-    path = f'/scratch2/BMC/fv3lam/Robby.Frost/figures/20230419/refc/refc_sidebyside_f{hr}.png'
+    path = f'/scratch2/BMC/fv3lam/Robby.Frost/figures/2023041912/refc/refc_sidebyside_f{hr}_OK.png'
     # append to list
     image_path.append(path)
 
 # Output GIF file path
-output_path = '/scratch2/BMC/fv3lam/Robby.Frost/figures/20230419/refc/refc_sidebyside.gif'
+output_path = '/scratch2/BMC/fv3lam/Robby.Frost/figures/2023041912/refc/refc_sidebyside_OK.gif'
 
 # Create a list to store the image objects
 images = []
